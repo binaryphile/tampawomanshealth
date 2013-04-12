@@ -1,0 +1,354 @@
+html,body{
+	background:#FFFFFF;
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+	border:5px; 
+	bordercolor:#585947;
+	height:100%;
+ text-align: left;
+}
+
+th,td,div{ font-size:12px; font-weight: normal; color:#000000; font-family: Helvetica,Arial,Verdana,Helvetica,Sans-serif;}
+
+
+#SearchContainer input{background:none;  padding-top:0px; padding-bottom:0px;
+width:155px;
+height:18px;
+border: none;
+text-align:left;
+vertical-align:middle;
+margin-bottom:0px;
+margin-top:0px;
+}
+
+
+
+/*--------------------------------------------------------------------------------------------------------------------------*/
+.lt{ text-align:left; vertical-align:top}
+.lm{ text-align:left; vertical-align:middle}
+.lb{ text-align:left; vertical-align:bottom}
+.rt{ text-align:right; vertical-align:top}
+.rm{ text-align:right; vertical-align:middle}
+.rb{ text-align:right; vertical-align:bottom}
+.ct{ text-align:center; vertical-align:top}
+.cm{ text-align:center; vertical-align:middle}
+.cb{ text-align:center; vertical-align:bottom}
+.h{ height:100%}
+.w{ width:100%}
+.wh{ width:100%; height:100%}
+.bg-x{ background-repeat:repeat-x;}
+.bg-y{ background-repeat:repeat-y;}
+.bg-no{ background-repeat:no-repeat;}
+.bg-p-lt{ background-position: left top;}
+.bg-p-rt{ background-position: right top;} 
+.bg-p-lb{ background-position: left bottom;} 
+.bg-p-rb{ background-position: right bottom;}
+.clearfloat{ clear:both;}
+
+.padding1{ padding:0px 50px;}
+.linebg{ background:url(images/linebg.jpg) repeat-x left top;}
+.paneleft{ background:url(images/paneleft.jpg) repeat-y left top;}
+.paneright{ background:url(images/paneright.jpg) repeat-y right top;}
+.panebottom{ background:url(images/panebottom.jpg) repeat-x bottom left;}
+.panetop{ background:url(images/panetop.jpg) repeat-x left top;}
+.logobottom2 { width:12px; background:url(images/logobottom2.jpg) repeat-x center top;}
+.topgreenbg{ background:url(images/topgreenbg.jpg) repeat-x center top}
+.searchbg{ background:url(images/searchbg.jpg) no-repeat left center}
+.skinleftpadding { padding:0px 22px;}
+.bottomline{ background:url(images/bottomline.jpg) repeat-x center top;}
+.bottomgreen{ background:url(images/bottomgreen.jpg) repeat-x center bottom;}
+h1{ color:#278d9d; font-size:14px; font-weight:bold}
+h2{ color:#278d9d; font-size:16px; font-weight:bold}
+/*--------------------------------------------------------------------------------------------------------------------------*/
+
+/* Title, Module Title */
+.Head					{font-size:12px; color:#000000; font-weight:bold; }
+.SubHead				{font-size:12px; color:#000000;font-weight:bold; }
+.SubSubHead				{font-size:12px; color:#000000}
+.Normal 				{font-size:11px; color:#000000}
+
+.CommandButton,
+A.CommandButton:link,
+A.CommandButton:visited,
+A.CommandButton:active		{color:#000000; text-decoration:underline}
+A.CommandButton:hover		{color:#ea008c; text-decoration:none}
+
+.link,
+A:link,
+A:visited,
+A:active					{color:#5186bc; font-weight: normal; text-decoration: none}
+A:hover						{color:#5186bc; font-weight: normal; text-decoration: underline}
+
+.topcss,
+A.topcss:link,
+A.topcss:active,
+A.topcss:visited			{font-weight: normal; font-size:11px; color:#f38023; text-decoration:none}
+A.topcss:hover				{font-weight:normal; font-size:11px; color:#78be37; text-decoration:none}
+
+.usercss,
+A.usercss:link,
+A.usercss:active,
+A.usercss:visited			{font-weight: normal; font-size:11px; color:#989898; text-decoration:none;}
+A.usercss:hover				{font-weight:normal; font-size:11px; color:#ea008c; text-decoration:underline;}
+
+
+input.groovybutton
+{
+   background-color:transparent;
+   font-family:Arial,sans-serif;
+   border-top-style:none;
+   border-bottom-style:none;
+   border-left-style:none;
+   border-right-style:none;
+   padding-left:10px;
+   background-repeat: no-repeat;
+   font-weight:normal;
+   font-size:11px;
+   color:#ffffff;
+   text-decoration:none;
+   FONT-FAMILY:Tahoma,Arial,Helvetica;
+}
+.searchcss,
+A.searchcss:link,
+A.searchcss:active,
+A.searchcss:visited			{font-weight:bold; font-size:11px; color:#83878A; text-decoration:none}
+A.searchcss:hover			{font-weight:bold; font-size:11px; color:#FF4846; text-decoration:underline}
+
+.links,
+A.links:link,
+A.links:active,
+A.links:visited			{font-weight:normal; font-size:11px; color:#707070; text-decoration:none;font-family:Verdana, Arial, Helvetica, sans-serif}
+A.links:hover			{font-weight:normal; font-size:11px; color:#ea008c; text-decoration:none; font-family:Verdana, Arial, Helvetica, sans-serif}
+
+.bottomcss,
+A.bottomcss:link,
+A.bottomcss:active,
+A.bottomcss:visited			{font-weight:normal; font-size:11px; color:#989898; text-decoration: none}
+A.bottomcss:hover			{font-weight:normal; font-size:11px; color:#ea008c; text-decoration: underline}
+
+/*--------------------------------------------------------------------------------------------------------------------------*/
+/* Pane Structure */
+.LeftPane				{padding:0px 0px 0px 0px}
+.RightPane				{padding:0px 10px 0px 0px}
+.TopPane				{padding:0px 0px 3px 0px}
+.BottomPane				{padding:3px 0px 0px 0px}
+.ContentPane			{padding:0px 0px 0px 0px}
+.RightShowPane			{padding:0px 0px 0px 10px}
+.mycontentpane			{padding:0px 0px 0px 0px}
+.myrightpane			{padding:0px 0px 0px 0px}
+.mybottompane			{padding:0px 0px 0px 0px}
+.logopane				{padding:0px 0px 0px 0px}
+.showcasepane			{padding:0px 0px 0px 0px}
+.bannerpane				{padding:0px 0px 0px 0px}
+.vspacepane				{padding:0px 0px 0px 0px}
+.hspacepane				{padding:0px 0px 0px 0px}
+.allspacepane			{padding:0px 0px 0px 0px}
+
+
+/*--------------------   Horizontal   -----------------------*/  
+ /* ==========================
+    CSS STYLES FOR JDMenu
+   ==========================
+*/
+
+
+ul.jd_menu, 
+ul.jd_menu_vertical {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	clear: both;
+	display:block;
+	height:54px;
+}
+/* Main Memu LEFT */
+ul.jd_menu li {
+    FONT-FAMILY:sans-serif,Verdana,Tahoma,Arial,Helvetica;
+	font-size: 17px;
+	font-weight:bold;
+	cursor: pointer;
+	color:#FFFFFF;
+	display:block;
+	list-style-type:none;
+	margin:0px;
+	float:left;
+	background:url(images/menuright.jpg) no-repeat right top;
+	height:54px;
+		
+}
+/*Main Menu RIGHT*/
+ul.jd_menu li a, 
+ul.jd_menu li a:active,
+ul.jd_menu li a:link,
+ul.jd_menu li a:visited,
+ul.jd_menu li a:hover 
+{
+	text-decoration: none;
+	text-align:center;
+	color:#FFFFFF;
+	display:block;
+	FONT-FAMILY:Verdana,Arial,Helvetica;
+	font-size:15px;
+	font-weight: normal;
+	padding:18px 15px 18px 15px;
+	background:url(images/menuleft.jpg) no-repeat left top;  
+}
+
+
+
+
+
+/* Main Actice Menu*/
+ul.jd_menu li.activetab
+ {
+  padding:0px 0px 0px 15px;
+  margin:0px;  
+  background:url(images/menuleft.jpg) no-repeat left top;  
+}
+ul.jd_menu li.activetab a,
+ul.jd_menu li.activetab a:link,
+ul.jd_menu li.activetab a:active,
+ul.jd_menu li.activetab a:visited
+{   background:transparent;
+	color:#FFFFFF;
+	font-weight: normal;
+	padding:18px 15px 18px 0px;
+	/*border-bottom:4px #846524 solid;*/
+	background:url(images/menuright.jpg) no-repeat right top;
+}
+
+
+
+
+
+/*Main Hover Menu */
+ul.jd_menu li.jdm_hover
+{
+	padding:0px 0px 0px 15px;
+	FONT-FAMILY:sans-serif,Verdana,Tahoma,Arial,Helvetica;
+	background:url(images/menuleft.jpg) no-repeat left top;
+}
+
+ul.jd_menu li.jdm_hover a,
+ul.jd_menu li.jdm_hover a:active,
+ul.jd_menu li.jdm_hover a:link,
+ul.jd_menu li.jdm_hover a:visited,
+ul.jd_menu li.jdm_hover a:hover	
+ {
+	color:#FFFFFF; 
+	font-weight: normal;
+	padding:18px 15px 18px 0px;
+	
+	/*border-bottom:4px #846524 solid;*/
+	background:url(images/menuright.jpg) no-repeat right top;
+}
+
+/* -- Sub-Menus -- */
+ul.jd_menu li ul,
+ul.jd_menu_vertical li ul {
+	position: absolute;
+	display: none;
+	clear:both;
+	list-style-type: none;
+	margin:0px 0px 0px 4px;
+	padding:0px;
+	z-index: 10000;
+	background:#006699;
+	border:1px #006699 solid;
+	height:auto;
+	text-align:left;
+}
+/* Sub Menu Left */
+ul.jd_menu li ul li{
+	background:transparent;
+	border: none;
+	color:#006699;
+	text-align:left;
+	white-space:nowrap;
+	font-weight:normal;
+	float: none;
+	margin:0px;
+	padding: 2px 10px 2px 10px;
+	height:auto;
+}
+/*Sub Menu*/
+ul.jd_menu li ul li a,
+ul.jd_menu li ul li a:active,
+ul.jd_menu li ul li a:link,
+ul.jd_menu li ul li a:visited,
+ul.jd_menu li ul li a:hover
+{
+	color:#006699;
+	font-size:11px;
+	font-weight:normal;
+	background: none;
+	text-align:left;
+	font-family:Tahoma,Arial;
+	text-transform:none;
+	height:auto;
+}
+
+/* Sub Menu Right */
+ul.jd_menu li.jdm_hover ul li a,
+ul.jd_menu li.jdm_hover ul li a:active,
+ul.jd_menu li.jdm_hover ul li a:link,
+ul.jd_menu li.jdm_hover ul li a:visited,
+ul.jd_menu li.jdm_active ul li a,
+ul.jd_menu li.jdm_active ul li a:active,
+ul.jd_menu li.jdm_active ul li a:link,
+ul.jd_menu li.jdm_active ul li a:visited
+{ 
+    font-weight:normal;
+	background: none;
+	color:#FFFFFF;
+	font-size:11px;
+	font-family:Tahoma, Arial;
+	border:none;
+	margin:0px;
+	padding:0px;
+}
+/* Sub Menu Hover */
+ul.jd_menu li ul li.jdm_active,
+ul.jd_menu li ul li.jdm_hover {
+   font-weight:normal;
+	color:#ffffff;
+	text-align:left;
+	background:#a4d0eb;
+	padding:2px 10px 2px 10px;
+	height:auto;
+}
+
+ul.jd_menu li.jdm_hover ul li.jdm_hover a,
+ul.jd_menu li.jdm_hover ul li.jdm_hover a:active,
+ul.jd_menu li.jdm_hover ul li.jdm_hover a:link,
+ul.jd_menu li.jdm_hover ul li.jdm_hover a:visited,
+ul.jd_menu li.jdm_hover ul li.jdm_hover a:hover,
+ul.jd_menu li.jdm_hover ul li.jdm_active a,
+ul.jd_menu li.jdm_hover ul li.jdm_active a:active,
+ul.jd_menu li.jdm_hover ul li.jdm_active a:link,
+ul.jd_menu li.jdm_hover ul li.jdm_active a:visited,
+ul.jd_menu li.jdm_hover ul li.jdm_active a:hover
+{
+	color: #ffffff;
+	font-size:11px;
+	font-weight: normal;
+	background:transparent;
+	text-align:left;
+	font-family:Tahoma, Arial;
+	border:none;
+	margin:0px;
+	padding:0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

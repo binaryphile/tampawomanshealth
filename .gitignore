@@ -1,1 +1,7 @@
-compiled/*
+compiled/
+themes/artisteer/artisteer/
+*.artx
+release.cmd
+S3Sync.exe
+S3Sync.exe.config
+SprightlySoftAWS.dll

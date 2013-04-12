@@ -1,0 +1,5 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.tampawomanshealthcenter.com	TRUE	/	FALSE	1999999999	.ASPXANONYMOUS	BSGlMGRtzgEkAAAAODk4NDQ1NzgtODE1Zi00ZDlkLWIzYTctNjFkZDRhZjg0ZjIy0
+www.tampawomanshealthcenter.com	TRUE	/	FALSE	1999999999	language	en-US
+

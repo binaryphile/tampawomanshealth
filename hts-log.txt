@@ -1,0 +1,16 @@
+HTTrack3.46+htsswf+htsjava launched on Thu, 11 Apr 2013 12:33:53 at http://www.tampawomanshealthcenter.com/ +*.png +*.gif +*.jpg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2010], %s -->" -%l "en, en, *" http://www.tampawomanshealthcenter.com/ -O1 D:\Users\tlilley\Projects\tampawomanhealthcenter +*.png +*.gif +*.jpg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+12:49:36	Error: 	"Not Found" (404) at link www.tampawomanshealthcenter.com/Firefox/ (from www.tampawomanshealthcenter.com/ScriptResource.axd?d=fxqzlY9ORZH5lDDSTylemR8Rl7A0yt-orV6Nvr21uAly-TbPPBVEhzXWOCjERtuoYAw0pDLd-CXm67N4WWbPpy9b0e6J9s5qldhZdcMVDSOdKF5sc_p4qZl48pbgcceKNxm-JwprJ9SJb3nHI_7k5prJgBM1&t=633562234714295160)
+12:49:36	Error: 	"Not Found" (404) at link www.tampawomanshealthcenter.com/Safari/ (from www.tampawomanshealthcenter.com/ScriptResource.axd?d=fxqzlY9ORZH5lDDSTylemR8Rl7A0yt-orV6Nvr21uAly-TbPPBVEhzXWOCjERtuoYAw0pDLd-CXm67N4WWbPpy9b0e6J9s5qldhZdcMVDSOdKF5sc_p4qZl48pbgcceKNxm-JwprJ9SJb3nHI_7k5prJgBM1&t=633562234714295160)
+12:49:36	Error: 	"Not Found" (404) at link www.tampawomanshealthcenter.com/Opera/ (from www.tampawomanshealthcenter.com/ScriptResource.axd?d=fxqzlY9ORZH5lDDSTylemR8Rl7A0yt-orV6Nvr21uAly-TbPPBVEhzXWOCjERtuoYAw0pDLd-CXm67N4WWbPpy9b0e6J9s5qldhZdcMVDSOdKF5sc_p4qZl48pbgcceKNxm-JwprJ9SJb3nHI_7k5prJgBM1&t=633562234714295160)
+12:50:38	Error: 	"" (500) after 2 retries at link www.tampawomanshealthcenter.com/WellWoman/LinkClick.aspx?link=83&tabid=37 (from www.tampawomanshealthcenter.com/WellWoman/SexuallyTransmittedDiseasesSTD/GenitalHerpes/LivingWithHerpes/tabid/169/Default.aspx)
+12:50:38	Error: 	"" (500) after 2 retries at link www.tampawomanshealthcenter.com/Resources/LinkClick.aspx?link=83&tabid=37 (from www.tampawomanshealthcenter.com/Resources/SymptomsofPregnancy/MorningSickness/DealingWithMorningSickness/tabid/118/Default.aspx)
+
+HTTrack Website Copier/3.46 mirror complete in 16 minutes 45 seconds : 200 links scanned, 190 files written (27857370 bytes overall) [27881519 bytes received at 27742 bytes/sec], 84019 bytes transfered using HTTP compression in 1 files, ratio 27%
+(5 errors, 0 warnings, 0 messages)
