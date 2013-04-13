@@ -1,0 +1,19 @@
+<meta charset="utf-8">
+<title>{{data.title}}</title>
+{{#page.description}}
+<meta name="description" content="{{.}}">
+{{/page.description}}
+<meta name="author" content="{{data.author.name}}">
+{{{stylesheets.all}}}
+{{{javascripts.all}}}
+<meta name="viewport" content="initial-scale = 1.0, maximum-scale = 1.0, user-scalable = no, width = device-width">
+<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<!--[if lte IE 7]><link rel="stylesheet" href="style.ie7.css" media="screen" /><![endif]-->
+<link rel="shortcut icon" href="{{urls.media}}/favicon.ico">
+{{#data.rss}}
+<link rel="alternate" type="application/rss+xml" title="{{ title }}" href="{{ href }}" />
+{{/data.rss}}
+{{#page.scripts}}
+<script src="{{urls.javascripts}}/{{.}}"></script>
+{{/page.scripts}}
+

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+{{>head}}
+</head>
+<body>
+<div id="art-main">
+<nav class="art-nav">
+{{>nav}}
+</nav>
+<header class="art-header"></header>
+<div class="art-sheet clearfix">
+  <div class="art-layout-wrapper">
+    <div class="art-content-layout">
+      <div class="art-content-layout-row">
+        <div class="art-layout-cell art-content">
+{{{content}}}
+        </div>
+        <div class="art-layout-cell art-sidebar1">
+{{>sidebar1}}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<footer class="art-footer">
+  <div class="art-footer-inner">
+  </div>
+</footer>
+</div>
+</body>
+</html>
+

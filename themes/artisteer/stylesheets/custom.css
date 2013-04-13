@@ -1,0 +1,103 @@
+#tabs {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
+
+.tel_tabular fieldset {
+  margin: 0 0 1em 0;
+  padding: .25em .25em;
+}
+
+.tel_tabular legend {
+  font-weight: bold;
+}
+
+ol.tel_tabular {
+  margin: 0;
+  display: table;
+}
+
+.tel_tabular ol {
+  margin: 0;
+  display: table;
+}
+
+.tel_tabular li {
+  height: 2em;
+  display: table-row;
+}
+
+.tel_tabular li > label {
+  display: table-cell;
+}
+
+.tel_tabular label {
+  text-align: right;
+  padding-left: 1em;
+}
+
+.tel_tabular label:after {
+  content: ":";
+}
+
+.tel_tabular input {
+  width: 25em;
+  margin-left: 0.25em;
+}
+
+.tel_tabular label:first-child {
+  min-width: 8em;
+}
+
+.tel_tabular label {
+  min-width: 4em;
+}
+
+.tel_tabular span > label {
+  min-width: auto;
+}
+
+.tel_tabular span {
+  display: table-cell;
+}
+
+.tel_tabular > label, .tel_tabular span > label {
+  display: inline-block;
+}
+
+.tel_tabular > label:after {
+  content: ""
+}
+
+.tel_tabular > input, .tel_tabular span > input {
+  width: auto;
+}
+
+input.tel_state, span > input.tel_state { /* second selector is to override specifity of another selector */
+  width: 2em;
+}
+
+input.tel_zip, span > input.tel_zip { /* second selector is to override specifity of another selector */
+  width: 5em;
+}
+
+input.tel_ext, span > input.tel_ext { /* second selector is to override specifity of another selector */
+  width: 5em;
+}
+
+input[type="number"], span > input[type="number"] {
+  width: 5em;
+}
+
+input[type="textarea"], span > input[type="textarea"] {
+  height: 2em;
+}
+

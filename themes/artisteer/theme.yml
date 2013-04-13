@@ -1,0 +1,32 @@
+{
+  "stylesheets" : {
+    "default" : [
+      "style.css",
+      style.responsive.css,
+      custom.css,
+    ],
+   
+    "widgets" : {
+      "google_prettify" : "sunburst-custom.css",
+    }
+    
+  },
+
+  "javascripts" : {
+    "default" : [
+      jquery.js,
+      script.responsive.js,
+      script.js,
+      button.js,
+    ]
+  },
+  
+  "manifest" : {
+    "author" : "Tampa Woman's Health Center",
+    "website": "http://www.tampawomanshealthcenter.com/",
+  },
+
+  exclude: [
+    artisteer/,
+  ]
+}
