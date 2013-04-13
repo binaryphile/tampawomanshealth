@@ -1,4 +1,15 @@
 GIT
+  remote: git://github.com/binaryphile/ruhoh.rb.git
+  revision: 2dda1004eca2f2dda89124a9c9a2285566db659d
+  specs:
+    ruhoh (2.0.alpha.3)
+      directory_watcher (~> 1.4.1)
+      mustache (~> 0.99)
+      nokogiri (~> 1.5)
+      rack (~> 1.4)
+      redcarpet (~> 2.1)
+
+GIT
   remote: git://github.com/guard/guard-livereload.git
   revision: 931c14064b05188dff00c15488f18c82ad81e9f2
   specs:
@@ -9,7 +20,7 @@ GIT
 
 GIT
   remote: git://github.com/guard/guard.git
-  revision: e4c21d31bb5ccfa3d300c4654de3864b189dc536
+  revision: abadef074a88a1a25f47b70b16a040cbe1ba4318
   specs:
     guard (1.7.0)
       formatador (>= 0.2.4)
@@ -29,28 +40,22 @@ GIT
   remote: git://github.com/nex3/rb-inotify.git
   revision: 6a8f19cf31cb84783ddfb99aebe4cb16f34e5219
   specs:
-
-GIT
-  remote: git://github.com/ruhoh/ruhoh.rb.git
-  revision: 877c29d2864551045e97b604e698f8788a593f5d
-  specs:
-    ruhoh (2.0.alpha.3)
-      directory_watcher (~> 1.4)
-      mustache (~> 0.99)
-      nokogiri (~> 1.5)
-      rack (~> 1.4)
-      redcarpet (~> 2.1)
+    rb-inotify (0.9.0)
+      ffi (>= 0.5.0)
 
 GEM
   remote: https://rubygems.org/
   specs:
     coderay (1.0.9)
-    directory_watcher (1.5.1)
+    directory_watcher (1.4.1)
     em-websocket (0.5.0)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.5.3)
+    eventmachine (1.0.3)
     eventmachine (1.0.3-x86-mingw32)
+    ffi (1.7.0)
     formatador (0.2.4)
+    http_parser.rb (0.5.3)
     http_parser.rb (0.5.3-x86-mingw32)
     kramdown (0.14.2)
     listen (0.7.3)
@@ -58,7 +63,12 @@ GEM
     method_source (0.8.1)
     multi_json (1.7.2)
     mustache (0.99.4)
+    nokogiri (1.5.9)
     nokogiri (1.5.9-x86-mingw32)
+    pry (0.9.12)
+      coderay (~> 1.0.5)
+      method_source (~> 0.8)
+      slop (~> 3.4)
     pry (0.9.12-x86-mingw32)
       coderay (~> 1.0.5)
       method_source (~> 0.8)
@@ -72,6 +82,7 @@ GEM
     win32console (1.3.2-x86-mingw32)
 
 PLATFORMS
+  ruby
   x86-mingw32
 
 DEPENDENCIES

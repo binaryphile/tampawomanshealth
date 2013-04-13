@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 #gem 'debugger'
-gem 'ruhoh', github: 'ruhoh/ruhoh.rb'
+gem 'ruhoh', github: 'binaryphile/ruhoh.rb'
 gem 'kramdown', '~> 0.14'
 gem 'guard', github: 'guard/guard'
 gem 'rb-inotify', github: 'nex3/rb-inotify', platforms: :ruby, require: false

@@ -1,16 +1,13 @@
-title : Blog Title
-tagline: Blog Tagline
+title : "Abortion Clinic Tampa St. Petersburg Clearwater:  Tampa Woman's Health Center"
 author :
-  name : Firstname Lastname
-  email : blah@email.test
-  github : username
-  twitter : username
-  feedburner : feedname
+  name : Tampa Bay Abortion Clinics
 
 navigation :
-  - archive.html
-  - tags.html
-  - categories.html
-  - pages.html
+  - home.md
   - about.md
+  - abortion_options.md
+  - well_woman.md
+  - resources.md
+  - birth_control.md
+  - locations.md
   
