@@ -506,16 +506,6 @@ jQuery(function ($) {
         }
     ).remove();
 });
-jQuery(function($) {
-    "use strict";
-    if (!$('html').hasClass('ie7')) {
-        return;
-    }
-    $('ul.art-vmenu li:not(:first-child),ul.art-vmenu li li li:first-child,ul.art-vmenu>li>ul').each(function () { $(this).append('<div class="art-vmenu-separator"> </div><div class="art-vmenu-separator-bg"> </div>'); });
-});
-
-
-
 var fixRssIconLineHeight = (function ($) {
     "use strict";
     return function (className) {
@@ -1159,6 +1149,28 @@ jQuery(function () {
 
 
 
+jQuery(window).bind("resize", (function ($) {
+    /*global responsiveDesign */
+    "use strict";
+    return function () {
+        if (typeof responsiveDesign !== "undefined" && responsiveDesign.isResponsive) {
+            $("header.art-header .art-shapes").children().css("left", "");
+            return;
+        }
+        var sheetWidth = $(".art-sheet").width();
+        var sheetLeft = $(".art-sheet").offset().left;
+        $("header.art-header .art-shapes>*, header.art-header>.art-textblock, header.art-header>.art-headline, header.art-header>.art-slogan").each(function () {
+            var object = $(this);
+            var objectLeft = sheetWidth * parseFloat(object.attr("data-left") || "0") / 100 + sheetLeft;
+            object.css("left", objectLeft + "px");
+        });
+    };
+})(jQuery));
+
+jQuery(function ($) {
+    "use strict";
+    $(window).trigger("resize"); 
+});
 jQuery(function ($) {
     "use strict";
     if (!$.browser.msie || parseInt($.browser.version, 10) > 8)
@@ -1176,8 +1188,8 @@ var processHeaderMultipleBg = (function ($) {
     "use strict";
     return (function (path) {
         var header = $(".art-header");
-        var bgimages = "url('images/object0.png'), ".split(",");
-        var bgpositions = "333px 9px, ".split(",");
+        var bgimages = "".split(",");
+        var bgpositions = "".split(",");
         for (var i = bgimages.length - 1; i >= 0; i--) {
             var bgimage = $.trim(bgimages[i]);
             if (bgimage === "")
@@ -1188,6 +1200,6 @@ var processHeaderMultipleBg = (function ($) {
             header.append("<div style=\"position:absolute;top:0;left:0;width:100%;height:100%;background:" + bgimage + " " + bgpositions[i] + " no-repeat\">");
         }
         header.css('background-image', "url('images/header.png')".replace(/(url\(['"]?)/i, "$1" + path));
-        header.css('background-position', "0 0");
+        header.css('background-position', "center top");
     });
 })(jQuery);

@@ -27,28 +27,11 @@ ul.art-hmenu, ul.art-hmenu ul {
 }
 
 ul.art-hmenu>li:first-child {
-   padding-right:15px;
-}
-ul.art-hmenu>li{
-   zoom:expression(runtimeStyle.zoom=1,insertBefore(document.createElement('span'),firstChild).className='art-hmenu-separator');
-}
-ul.art-hmenu>li>span.art-hmenu-separator
-{
-   position:absolute;
-   display: block;
-   top:0;
-   left:  -15px;
-   width: 15px;
-   height: 30px;
-   background: url('../media/menuseparator.png') center center no-repeat;
-}
-ul.art-hmenu>li:first-child>span.art-hmenu-separator
-{
-   display:none;
+   padding-right:3px;
 }
 
 ul.art-hmenu ul{
-   background-color: #EFF2F5 !important;
+   background-color: #328DBD !important;
 }
 
 .art-header
@@ -102,14 +85,6 @@ form.art-search div>input[type="text"]
    margin :0;
 }
 
-ul.art-vmenu, ul.art-vmenu ul, ul.art-vmenu li{
-   zoom: 1;
-}
-
-ul.art-vmenu ul 
-{
-}
-
 .art-postheadericons span{
    zoom: 1;
 }
@@ -127,7 +102,28 @@ ul.art-vmenu ul
    display: none !important;
 }
 
-.art-sidebar1 
+.art-sidebar1
+{
+   background: none !important;
+   border: none !important;
+   zoom:expression(runtimeStyle.zoom=1, parentNode.parentNode.insertBefore(document.createElement('div'),parentNode.parentNode.firstChild).className='art-sidebar1-bg' + (className.indexOf('art-sidebar1-fix') == -1 ? '' : ' art-sidebar1-bg-fix' ));
+}
+
+.art-sidebar1-bg 
+{
+   position:absolute;
+   z-index:-2;
+   direction: ltr;
+   left:  0;
+   bottom:0;
+   top:0;
+   width: 275px;
+   overflow:hidden;
+   display:block;
+   background-color: #D9D9D9;
+}
+
+.art-content 
 {
    width: auto;
    float:none;

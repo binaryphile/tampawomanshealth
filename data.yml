@@ -1,13 +1,31 @@
 title : "Abortion Clinic Tampa St. Petersburg Clearwater:  Tampa Woman's Health Center"
+name: Tampa Woman's Health Center
+slogan: When Someone You Love Needs a Choice
+year: 2013
 author :
   name : Tampa Bay Abortion Clinics
 
 navigation :
-  - home.md
-  - about.md
-  - abortion_options.md
-  - well_woman.md
-  - resources.md
-  - birth_control.md
-  - locations.md
+  - Default.md
   
+clinics:
+  - name: Tampa Woman's Health Center
+    phone: 813-977-6176
+    location: Tampa, FL
+    hours:
+      - "Mon - Fri: 8am - 5pm"
+      - "Sat: 8am - Last Patient"
+  - name: St. Petersburg Woman's Health Center
+    phone: 727-381-6620
+    location: St. Petersburg, FL
+    hours:
+      - "Mon - Thu: 10am - 4pm"
+      - "Fri: 8am - 4pm"
+      - "Sat: Closed"
+  - name: Bread and Roses Woman's Health Center
+    phone: 727-446-2690
+    location: Clearwater, FL
+    hours: 
+      - "Mon - Fri: 8am - 5pm"
+      - "Sat: 8am - Last Patient"
+

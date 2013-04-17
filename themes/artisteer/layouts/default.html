@@ -8,7 +8,9 @@
 <nav class="art-nav">
 {{>nav}}
 </nav>
-<header class="art-header"></header>
+<header class="art-header">
+{{>header}}
+</header>
 <div class="art-sheet clearfix">
   <div class="art-layout-wrapper">
     <div class="art-content-layout">
@@ -16,15 +18,13 @@
         <div class="art-layout-cell art-content">
 {{{content}}}
         </div>
-        <div class="art-layout-cell art-sidebar1">
-{{>sidebar1}}
-        </div>
       </div>
     </div>
   </div>
 </div>
 <footer class="art-footer">
   <div class="art-footer-inner">
+    {{>footer}}
   </div>
 </footer>
 </div>

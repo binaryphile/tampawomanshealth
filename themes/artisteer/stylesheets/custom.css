@@ -101,3 +101,15 @@ input[type="textarea"], span > input[type="textarea"] {
   height: 2em;
 }
 
+.art-textblock {
+  position: absolute;
+  bottom: 0;
+  font-size: 13px;
+  text-align: center;
+}
+
+.art-textblock p {
+  width: 144px;
+  margin: 0 8px 15px;
+  float: left;
+}
