@@ -1,0 +1,21 @@
+<div class="art-content-layout">
+  <div class="art-content-layout-row">
+{{#data.clinics}}
+    <div class="art-layout-cell layout-item-0">
+      <p>
+{{name}}<br />
+{{phone}}<br />
+{{#hours}}
+{{.}}<br />
+{{/hours}}
+      </p>
+    </div>
+{{/data.clinics}}
+  </div>
+</div>
+<p class="art-page-footer">Serving the Woman in our Community Since 1975</p>
+<p class="art-page-footer">Copyright 2010-{{data.year}} {{data.author.name}}</p>
+<p class="art-page-footer">
+  <a href="/Privacy/">Privacy policy</a> |
+  <a href="/Terms/">Terms Of Use</a>
+</p>
