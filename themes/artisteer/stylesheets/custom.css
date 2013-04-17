@@ -109,7 +109,7 @@ input[type="textarea"], span > input[type="textarea"] {
 }
 
 .art-textblock p {
-  width: 144px;
-  margin: 0 8px 15px;
+  width: 12em;
+  margin: 0 0.5em 1em;
   float: left;
 }

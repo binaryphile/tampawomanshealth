@@ -537,7 +537,7 @@ ul.art-hmenu
 }
 
 .art-nav-inner{
-   text-align: right;
+   text-align: left;
    margin:0 auto;
 }
 
@@ -575,7 +575,7 @@ ul.art-hmenu
 
 .art-hmenu
 {
-   float: right;
+   float: left;
 }
 
 .art-menuitemcontainer
@@ -583,30 +583,30 @@ ul.art-hmenu
    margin:0 auto;
 }
 ul.art-hmenu>li {
-   margin-left: 3px;
-}
-ul.art-hmenu>li:first-child {
    margin-left: 1px;
 }
+ul.art-hmenu>li:first-child {
+   margin-left: 0;
+}
 ul.art-hmenu>li:last-child, ul.art-hmenu>li.last-child {
-   margin-right: 1px;
+   margin-right: 0;
 }
 
 ul.art-hmenu>li>a
 {
-   -webkit-border-radius:4px;
-   -moz-border-radius:4px;
-   border-radius:4px;
+   -webkit-border-radius:2px;
+   -moz-border-radius:2px;
+   border-radius:2px;
    border:1px solid transparent;
-   padding:0 25px;
+   padding:0 12px;
    margin:0 auto;
    position: relative;
    display: block;
-   height: 41px;
+   height: 25px;
    cursor: pointer;
    text-decoration: none;
    color: #2D4448;
-   line-height: 41px;
+   line-height: 25px;
    text-align: center;
 }
 
@@ -616,7 +616,7 @@ ul.art-hmenu>li>a
 .art-hmenu a.active, 
 .art-hmenu a:hover
 {
-   font-size: 16px;
+   font-size: 14px;
    font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
    font-weight: normal;
    font-style: normal;
@@ -634,11 +634,11 @@ ul.art-hmenu>li>a.active
    background: -ms-linear-gradient(top, #72B5DA 0, #3A98CB 100%) no-repeat;
    background: linear-gradient(top, #72B5DA 0, #3A98CB 100%) no-repeat;
    -svg-background: linear-gradient(top, #72B5DA 0, #3A98CB 100%) no-repeat;
-   -webkit-border-radius:4px;
-   -moz-border-radius:4px;
-   border-radius:4px;
+   -webkit-border-radius:2px;
+   -moz-border-radius:2px;
+   border-radius:2px;
    border:1px solid #328DBD;
-   padding:0 25px;
+   padding:0 12px;
    margin:0 auto;
    color: #FFFFFF;
    text-decoration: none;
@@ -660,11 +660,11 @@ ul.art-hmenu>li>a:hover, .desktop ul.art-hmenu>li:hover>a
    background: -ms-linear-gradient(top, #A2CFE6 0, #66AFD6 100%) no-repeat;
    background: linear-gradient(top, #A2CFE6 0, #66AFD6 100%) no-repeat;
    -svg-background: linear-gradient(top, #A2CFE6 0, #66AFD6 100%) no-repeat;
-   -webkit-border-radius:4px;
-   -moz-border-radius:4px;
-   border-radius:4px;
+   -webkit-border-radius:2px;
+   -moz-border-radius:2px;
+   border-radius:2px;
    border:1px solid #56A7D2;
-   padding:0 25px;
+   padding:0 12px;
    margin:0 auto;
 }
 ul.art-hmenu>li>a:hover, 

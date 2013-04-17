@@ -6,7 +6,13 @@ author :
   name : Tampa Bay Abortion Clinics
 
 navigation :
-  - Default.md
+  - index.md
+  - about.md
+  - abortion_options.md
+  - well_woman.md
+  - resources.md
+  - birth_control.md
+  - locations.md
   
 clinics:
   - name: Tampa Woman's Health Center
