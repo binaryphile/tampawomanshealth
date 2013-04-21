@@ -381,34 +381,6 @@ jQuery(window).bind("responsive", function (event, responsiveDesign) {
 });
 
 
-var responsiveLayoutCell = (function ($) {
-    "use strict";
-    return function (responsiveDesign) {
-        $(".art-content .art-content-layout-row,.art-footer .art-content-layout-row").each(function () {
-            var row = $(this);
-            var rowChildren = row.children(".art-layout-cell");
-            if (rowChildren.length > 1) {
-                if (responsiveDesign.isTablet) {
-                    rowChildren.addClass("responsive-tablet-layout-cell").each(function (i) {
-                        if ((i + 1) % 2 === 0) {
-                            $(this).after("<div class=\"cleared responsive-cleared\">");
-                        }
-                    });
-                } else {
-                    rowChildren.removeClass("responsive-tablet-layout-cell");
-                    row.children(".responsive-cleared").remove();
-                }
-            }
-        });
-    };
-})(jQuery);
-
-jQuery(window).bind("responsive", function (event, responsiveDesign) {
-    "use strict";
-    responsiveLayoutCell(responsiveDesign);
-});
-
-
 
 
 if (!jQuery.browser.msie || jQuery.browser.version > 8) {

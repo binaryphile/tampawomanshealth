@@ -1,0 +1,7 @@
+---
+title: General Information
+---
+
+{{title}}
+=========
+

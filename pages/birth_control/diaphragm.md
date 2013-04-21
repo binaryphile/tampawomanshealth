@@ -1,0 +1,7 @@
+---
+title: Diaphragm
+---
+
+{{title}}
+=========
+

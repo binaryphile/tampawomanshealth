@@ -2,17 +2,110 @@ title : "Abortion Clinic Tampa St. Petersburg Clearwater:  Tampa Woman's Health 
 name: Tampa Woman's Health Center
 slogan: When Someone You Love Needs a Choice
 year: 2013
+description: Tampa Woman's Health Center specializes in health and abortion services such as well-woman visits as well as chemical and surgical pregnancy termination in Tampa, St. Petersburg and Clearwater.
 author :
   name : Tampa Bay Abortion Clinics
 
 navigation :
-  - index.md
-  - about.md
-  - abortion_options.md
-  - well_woman.md
-  - resources.md
-  - birth_control.md
+  - abortion_options.md:
+    - surgical_abortion_procedure.md:
+      - abortion_preparation.md
+      - abortion_anesthesia.md
+      - abortion_fees.md
+      - preexisting_medical_condition_considerations.md
+      - instructions_for_after_your_abortion.md
+    - chemical_termination.md
+    - morning_after_pill.md:
+      - how_to_get_the_morning_after_pill.md
+    - ru486_pill.md
+    - surgical_termination_1st_trimester.md
+    - surgical_termination_2nd_trimester.md
+    - vip_services.md
+    - faq_regarding_surgical_abortions.md
+    - faq_regarding_medical_abortions.md
+    - medical_abortion_with_mifepristone_or_mifeprex.md
+  - resources.md:
+    - hormones_during_pregnancy.md
+    - frequency_of_urination_during_pregnancy.md
+    - emotional_issues_related_to_abortion.md:
+      - experiencing_upset_after_my_abortion.md
+      - myth_that_abortion_causes_depression.md
+    - symptoms_of_pregnancy.md:
+      - pregnancy_testing_service.md
+      - pregnancy_tests.md
+      - morning_sickness.md
+    - breast_tenderness.md
+    - breasts_leaking.md
+    - hyperemesis_gravidarum.md
+    - ultrasound.md
+    - preventing_hpv.md
+    - what_you_should_know_about_your_period.md:
+      - menstrual_bleeding.md
+      - when_you_should_worry_about_menstrual_bleeding.md
+    - masturbation.md
+    - dna_testing.md
+    - faq_for_men.md:
+      - male_birth_control_pills.md
+      - vasectomy.md
+      - coping_with_a_pregnancy_decision.md
+      - showing_her_you_care.md
+    - abortion_and_politics.md:
+      - the_hyde_amendment.md
+      - liberalization_of_abortion_laws.md
+      - making_abortion_illegal.md
+      - a_timeline_of_reproductive_rights.md
+      - reform_to_improve_pregnancy_related_services.md
+    - about_medicaid.md
+    - rh_sensitization.md
+    - common_sexual_misconceptions.md
+    - molar_pregnancy.md
+    - domestic_violence.md:
+      - protecting_yourself_from_domestic_violence.md
+      - why_do_women_stay_with_men_who_batter.md
+      - domestic_violence_and_getting_help.md
+    - informational_links.md
+  - birth_control.md:
+    - birth_control_choices_and_information.md:
+      - missed_birth_control_pills.md
+      - birth_control_myths.md
+    - the_nuva_ring.md
+    - depo_provera.md:
+      - depo_provera_contraceptive_injection.md
+    - iud.md
+    - spermicides.md
+    - condoms.md
+    - medications_can_interfere_with_oral_contraceptives.md
+    - female_sterilization_tubal_ligation.md
+    - paragard.md
+    - diaphragm.md
+  - well_woman.md:
+    - std.md:
+      - hiv_aids.md
+      - chlamydia.md
+      - genital_herpes.md
+      - genital_warts_condyloma.md
+      - gonorrhea.md
+      - hpv.md
+      - syphilis.md
+      - general_information.md
+    - uti.md
+    - about_cervical_cancer.md
+    - sexual_problems_in_women.md
+    - pms.md
+    - pelvic_pain.md
+    - pid.md
+    - pap_and_exam.md:
+      - faq_pap_smear_and_exam.md
+      - understanding_the_pap_smear.md
+  - about.md:
+    - forms.md
+    - insurance_coverage.md
+    - privacy_rights.md
+    - special_information_for_minors.md
+    - our_history.md
+    - clients_rights_and_responsibilities.md
   - locations.md
+  - index.md
   
 clinics:
   - name: Tampa Woman's Health Center

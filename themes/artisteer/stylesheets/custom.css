@@ -11,6 +11,18 @@
   float: left;
 }
 
+.clear-left {
+  clear: left;
+}
+
+.clear-right {
+  clear: right;
+}
+
+.clear-both {
+  clear: both;
+}
+
 .tel_tabular fieldset {
   margin: 0 0 1em 0;
   padding: .25em .25em;
@@ -102,14 +114,88 @@ input[type="textarea"], span > input[type="textarea"] {
 }
 
 .art-textblock {
-  position: absolute;
-  bottom: 0;
+  position: relative;
+  bottom: -100px;
   font-size: 13px;
   text-align: center;
 }
 
 .art-textblock p {
   width: 12em;
-  margin: 0 0.5em 1em;
+  margin: 0 0 1em 0.5em;
   float: left;
 }
+
+dt {
+  font-family: Handlee, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+  font-size: large;
+}
+
+#contact-tab {
+  position: fixed;
+  top: 0;
+  right: 20px;
+  z-index: 9999;
+}
+
+#contact-tab>a
+{
+   background: #B4CCD0;
+   background: linear-gradient(top, #CDDDE0 0, #9BBBC0 100%) no-repeat;
+   background: -webkit-linear-gradient(top, #CDDDE0 0, #9BBBC0 100%) no-repeat;
+   background: -moz-linear-gradient(top, #CDDDE0 0, #9BBBC0 100%) no-repeat;
+   background: -o-linear-gradient(top, #CDDDE0 0, #9BBBC0 100%) no-repeat;
+   background: -ms-linear-gradient(top, #CDDDE0 0, #9BBBC0 100%) no-repeat;
+   background: linear-gradient(top, #CDDDE0 0, #9BBBC0 100%) no-repeat;
+   -svg-background: linear-gradient(top, #CDDDE0 0, #9BBBC0 100%) no-repeat;
+   -webkit-border-radius:0 0 2px 2px;
+   -moz-border-radius:0 0 2px 2px;
+   border-radius:0 0 2px 2px;
+   border:1px solid #82A9B0;
+   border-top:none;
+   padding:0 12px;
+   margin:0 auto;
+   position: relative;
+   display: block;
+   height: 25px;
+   cursor: pointer;
+   text-decoration: none;
+   color: #1D2C2F;
+   line-height: 25px;
+   text-align: center;
+}
+
+#contact-tab>a:hover
+{
+   background: #82BEDE;
+   background: linear-gradient(top, #A2CFE6 0, #66AFD6 100%) no-repeat;
+   background: -webkit-linear-gradient(top, #A2CFE6 0, #66AFD6 100%) no-repeat;
+   background: -moz-linear-gradient(top, #A2CFE6 0, #66AFD6 100%) no-repeat;
+   background: -o-linear-gradient(top, #A2CFE6 0, #66AFD6 100%) no-repeat;
+   background: -ms-linear-gradient(top, #A2CFE6 0, #66AFD6 100%) no-repeat;
+   background: linear-gradient(top, #A2CFE6 0, #66AFD6 100%) no-repeat;
+   -svg-background: linear-gradient(top, #A2CFE6 0, #66AFD6 100%) no-repeat;
+   -webkit-border-radius:0 0 2px 2px;
+   -moz-border-radius:0 0 2px 2px;
+   border-radius:0 0 2px 2px;
+   border:1px solid #56A7D2;
+   border-top:none;
+   padding:0 12px;
+   margin:0 auto;
+   text-decoration: none;
+   color: #F5F5F5;
+}
+
+.art-headline {
+  white-space: normal;
+}
+
+.table-cell {
+  display: table-cell;
+}
+
+.spread-cell {
+  display: table-cell;
+  min-width: 20em;
+}
+

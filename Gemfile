@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-#gem 'debugger'
+gem 'debugger'
 gem 'ruhoh', github: 'binaryphile/ruhoh.rb'
 gem 'kramdown', '~> 0.14'
 gem 'guard', github: 'guard/guard'

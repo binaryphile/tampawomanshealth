@@ -1,0 +1,7 @@
+---
+title: Masturbation
+---
+
+{{title}}
+=========
+

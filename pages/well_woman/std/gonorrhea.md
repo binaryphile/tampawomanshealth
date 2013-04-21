@@ -1,0 +1,7 @@
+---
+title: Gonorrhea
+---
+
+{{title}}
+=========
+

@@ -47,16 +47,16 @@ h1, h2, h3, h4, h5, h6, p, a, ul, ol, li
    background: -ms-linear-gradient(top, #FFFFFF 0, #C2C2C2 100%) no-repeat;
    background: linear-gradient(top, #FFFFFF 0, #C2C2C2 100%) no-repeat;
    -svg-background: linear-gradient(top, #FFFFFF 0, #C2C2C2 100%) no-repeat;
-   -webkit-border-radius:13px;
-   -moz-border-radius:13px;
-   border-radius:13px;
+   -webkit-border-radius:12px;
+   -moz-border-radius:12px;
+   border-radius:12px;
    -webkit-box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.15);
    -moz-box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.15);
    box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.15);
    border:1px solid #B8B8B8;
    padding:0 20px;
    margin:0 auto;
-   height:32px;
+   height:31px;
 }
 
 .art-postcontent,
@@ -79,6 +79,7 @@ ul.art-vmenu a
 .art-postcontent a.hovered
 {
    font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   line-height: 175%;
 }
 
 .art-postcontent p
@@ -98,9 +99,9 @@ ul.art-vmenu a
 .art-slogan, .art-slogan a, .art-slogan a:link, .art-slogan a:visited, .art-slogan a:hover,
 .art-postheader, .art-postheader a, .art-postheader a:link, .art-postheader a:visited, .art-postheader a:hover
 {
-   font-size: 36px;
+   font-size: 26px;
    font-family: Handlee, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
-   font-weight: bold;
+   font-weight: normal;
    font-style: normal;
    line-height: 120%;
 }
@@ -109,14 +110,14 @@ ul.art-vmenu a
 {
    font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
    text-decoration: none;
-   color: #82BEDE;
+   color: #5EABD4;
 }
 
 .art-postcontent a:visited, .art-postcontent a.visited
 {
    font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
    text-decoration: none;
-   color: #82A9B0;
+   color: #5EABD4;
 }
 
 .art-postcontent  a:hover, .art-postcontent a.hover
@@ -128,22 +129,22 @@ ul.art-vmenu a
 
 .art-postcontent h1
 {
-   color: #82A9B0;
+   color: #5EABD4;
    margin: 10px 0 0;
-   font-size: 36px;
+   font-size: 31px;
    font-family: Handlee, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
 }
 
 .art-blockcontent h1
 {
    margin: 10px 0 0;
-   font-size: 36px;
+   font-size: 31px;
    font-family: Handlee, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
 }
 
 .art-postcontent h1 a, .art-postcontent h1 a:link, .art-postcontent h1 a:hover, .art-postcontent h1 a:visited, .art-blockcontent h1 a, .art-blockcontent h1 a:link, .art-blockcontent h1 a:hover, .art-blockcontent h1 a:visited 
 {
-   font-size: 36px;
+   font-size: 31px;
    font-family: Handlee, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
 }
 
@@ -151,20 +152,20 @@ ul.art-vmenu a
 {
    color: #808080;
    margin: 10px 0 0;
-   font-size: 34px;
+   font-size: 26px;
    font-family: Handlee, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
 }
 
 .art-blockcontent h2
 {
    margin: 10px 0 0;
-   font-size: 34px;
+   font-size: 26px;
    font-family: Handlee, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
 }
 
 .art-postcontent h2 a, .art-postcontent h2 a:link, .art-postcontent h2 a:hover, .art-postcontent h2 a:visited, .art-blockcontent h2 a, .art-blockcontent h2 a:link, .art-blockcontent h2 a:hover, .art-blockcontent h2 a:visited 
 {
-   font-size: 34px;
+   font-size: 26px;
    font-family: Handlee, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
 }
 
@@ -172,20 +173,20 @@ ul.art-vmenu a
 {
    color: #82A9B0;
    margin: 10px 0 0;
-   font-size: 29px;
+   font-size: 24px;
    font-family: Handlee, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
 }
 
 .art-blockcontent h3
 {
    margin: 10px 0 0;
-   font-size: 29px;
+   font-size: 24px;
    font-family: Handlee, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
 }
 
 .art-postcontent h3 a, .art-postcontent h3 a:link, .art-postcontent h3 a:hover, .art-postcontent h3 a:visited, .art-blockcontent h3 a, .art-blockcontent h3 a:link, .art-blockcontent h3 a:hover, .art-blockcontent h3 a:visited 
 {
-   font-size: 29px;
+   font-size: 24px;
    font-family: Handlee, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
 }
 
@@ -193,20 +194,20 @@ ul.art-vmenu a
 {
    color: #2A759D;
    margin: 10px 0 0;
-   font-size: 24px;
+   font-size: 22px;
    font-family: Handlee, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
 }
 
 .art-blockcontent h4
 {
    margin: 10px 0 0;
-   font-size: 24px;
+   font-size: 22px;
    font-family: Handlee, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
 }
 
 .art-postcontent h4 a, .art-postcontent h4 a:link, .art-postcontent h4 a:hover, .art-postcontent h4 a:visited, .art-blockcontent h4 a, .art-blockcontent h4 a:link, .art-blockcontent h4 a:hover, .art-blockcontent h4 a:visited 
 {
-   font-size: 24px;
+   font-size: 22px;
    font-family: Handlee, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
 }
 
@@ -214,20 +215,20 @@ ul.art-vmenu a
 {
    color: #1D2C2F;
    margin: 10px 0 0;
-   font-size: 19px;
+   font-size: 18px;
    font-family: Handlee, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
 }
 
 .art-blockcontent h5
 {
    margin: 10px 0 0;
-   font-size: 19px;
+   font-size: 18px;
    font-family: Handlee, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
 }
 
 .art-postcontent h5 a, .art-postcontent h5 a:link, .art-postcontent h5 a:hover, .art-postcontent h5 a:visited, .art-blockcontent h5 a, .art-blockcontent h5 a:link, .art-blockcontent h5 a:hover, .art-blockcontent h5 a:visited 
 {
-   font-size: 19px;
+   font-size: 18px;
    font-family: Handlee, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
 }
 
@@ -235,20 +236,20 @@ ul.art-vmenu a
 {
    color: #496E74;
    margin: 10px 0 0;
-   font-size: 17px;
+   font-size: 16px;
    font-family: Handlee, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
 }
 
 .art-blockcontent h6
 {
    margin: 10px 0 0;
-   font-size: 17px;
+   font-size: 16px;
    font-family: Handlee, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
 }
 
 .art-postcontent h6 a, .art-postcontent h6 a:link, .art-postcontent h6 a:hover, .art-postcontent h6 a:visited, .art-blockcontent h6 a, .art-blockcontent h6 a:link, .art-blockcontent h6 a:hover, .art-blockcontent h6 a:visited 
 {
-   font-size: 17px;
+   font-size: 16px;
    font-family: Handlee, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
 }
 
@@ -980,11 +981,11 @@ div.art-block img
 .art-blockheader .t a:hover
 {
    color: #5C5C5C;
-   font-size: 29px;
+   font-size: 24px;
    font-family: Handlee, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
-   font-weight: bold;
+   font-weight: normal;
    font-style: normal;
-   margin: 0 10px;
+   margin: 0 5px;
 }
 
 .art-blockcontent
@@ -993,6 +994,7 @@ div.art-block img
    color: #1D2C2F;
    font-size: 16px;
    font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   line-height: 175%;
 }
 .art-blockcontent table,
 .art-blockcontent li, 
@@ -1004,6 +1006,7 @@ div.art-block img
    color: #1D2C2F;
    font-size: 16px;
    font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   line-height: 175%;
 }
 
 .art-blockcontent p
@@ -1015,17 +1018,12 @@ div.art-block img
 {
    color: #5EABD4;
    font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
-   font-weight: bold;
-   font-style: normal;
-   text-decoration: none;
 }
 
 .art-blockcontent a:visited, .art-blockcontent a.visited
 {
    color: #82A9B0;
    font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
-   font-weight: bold;
-   font-style: normal;
    text-decoration: none;
 }
 
@@ -1033,9 +1031,7 @@ div.art-block img
 {
    color: #2E81AD;
    font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
-   font-weight: bold;
-   font-style: normal;
-   text-decoration: underline;
+   text-decoration: none;
 }
 .art-block ul>li:before
 {
@@ -1059,8 +1055,9 @@ div.art-block img
 {
    font-size: 16px;
    font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
-   line-height: 125%;
+   line-height: 175%;
    color: #808080;
+   margin: 5px 0 0 10px;
 }
 
 .art-block ul>li, .art-block ol
@@ -1088,9 +1085,9 @@ input.art-button,
 button.art-button
 {
    text-decoration: none;
-   font-size: 17px;
+   font-size: 16px;
    font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
-   font-weight: bold;
+   font-weight: normal;
    font-style: normal;
    position:relative;
    display: inline-block;
@@ -1102,7 +1099,7 @@ button.art-button
    overflow: visible;
    cursor: pointer;
    text-indent: 0;
-   line-height: 32px;
+   line-height: 31px;
    -webkit-box-sizing: content-box;
    -moz-box-sizing: content-box;
    box-sizing: content-box;
@@ -1123,9 +1120,9 @@ button.art-button
 input, select, textarea, a.art-search-button span
 {
    vertical-align: middle;
-   font-size: 17px;
+   font-size: 16px;
    font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
-   font-weight: bold;
+   font-weight: normal;
    font-style: normal;
 }
 
@@ -1149,9 +1146,9 @@ input.art-button
    background: -ms-linear-gradient(top, #D3C58D 0, #B8A147 95%, #B49E46 100%) no-repeat;
    background: linear-gradient(top, #D3C58D 0, #B8A147 95%, #B49E46 100%) no-repeat;
    -svg-background: linear-gradient(top, #D3C58D 0, #B8A147 95%, #B49E46 100%) no-repeat;
-   -webkit-border-radius:13px;
-   -moz-border-radius:13px;
-   border-radius:13px;
+   -webkit-border-radius:12px;
+   -moz-border-radius:12px;
+   border-radius:12px;
    -webkit-box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.15);
    -moz-box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.15);
    box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.15);
@@ -1173,9 +1170,9 @@ input.art-button
    background: -ms-linear-gradient(top, #7EBCDD 0, #3696C9 90%, #3390C1 100%) no-repeat;
    background: linear-gradient(top, #7EBCDD 0, #3696C9 90%, #3390C1 100%) no-repeat;
    -svg-background: linear-gradient(top, #7EBCDD 0, #3696C9 90%, #3390C1 100%) no-repeat;
-   -webkit-border-radius:13px;
-   -moz-border-radius:13px;
-   border-radius:13px;
+   -webkit-border-radius:12px;
+   -moz-border-radius:12px;
+   border-radius:12px;
    -webkit-box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.15);
    -moz-box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.15);
    box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.15);
@@ -1198,9 +1195,9 @@ input[type="text"], input[type="password"], input[type="email"], input[type="url
    width: auto;
    padding: 8px 0;
    color: #2F474B !important;
-   font-size: 17px;
+   font-size: 16px;
    font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
-   font-weight: bold;
+   font-weight: normal;
    font-style: normal;
    text-shadow: none;
 }
@@ -1212,9 +1209,9 @@ input.art-error, textarea.art-error
 }
 input.art-error, textarea.art-error {
    color: #2F474B !important;
-   font-size: 17px;
+   font-size: 16px;
    font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
-   font-weight: bold;
+   font-weight: normal;
    font-style: normal;
 }
 form.art-search input[type="text"]
@@ -1474,6 +1471,7 @@ label.art-radiobutton.hovered:before
 {
    color: #373015;
    font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   line-height: 100%;
 }
 
 .art-comment-header a, 
@@ -1484,11 +1482,14 @@ label.art-radiobutton.hovered:before
 .art-comment-header a.hovered
 {
    font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   line-height: 100%;
 }
 
 .art-comment-header a, .art-comment-header a:link
 {
    font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: bold;
+   font-style: normal;
    color: #B8A147;
 }
 
@@ -1642,6 +1643,7 @@ label.art-radiobutton.hovered:before
 .art-pager  a:hover,
 .art-pager  a.more:hover
 {
+   text-decoration: none;
    color: #373015
 ;
 }
@@ -1703,7 +1705,7 @@ a img
 
 .art-article img, img.art-article, .art-block img, .art-footer img
 {
-   margin: 0 0 0 0;
+   margin: 10px 10px 10px 10px;
 }
 
 .art-metadata-icons img
@@ -1753,7 +1755,7 @@ pre
 
 .image-caption-wrapper
 {
-   padding: 0 0 0 0;
+   padding: 10px 10px 10px 10px;
    -webkit-box-sizing: border-box;
    -moz-box-sizing: border-box;
    box-sizing: border-box;
@@ -1785,8 +1787,8 @@ pre
 .art-postheader
 {
    color: #62949D;
-   margin: 6px 0;
-   font-size: 31px;
+   margin: 5px 10px;
+   font-size: 29px;
    font-family: Handlee, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
    font-weight: normal;
    font-style: normal;
@@ -1799,7 +1801,7 @@ pre
 .art-postheader a:hover,
 .art-postheader a.hovered
 {
-   font-size: 31px;
+   font-size: 29px;
    font-family: Handlee, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
    font-weight: normal;
    font-style: normal;
@@ -1817,6 +1819,7 @@ pre
 {
    font-family: Handlee, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
    text-decoration: none;
+   text-align: left;
    color: #7EA7AE;
 }
 
@@ -1824,6 +1827,7 @@ pre
 {
    font-family: Handlee, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
    text-decoration: none;
+   text-align: left;
    color: #82BEDE;
 }
 
@@ -1833,7 +1837,6 @@ pre
 .art-postheadericons a:visited,
 .art-postheadericons a:hover
 {
-   font-size: 14px;
    font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
    color: #544A21;
 }
@@ -1841,13 +1844,12 @@ pre
 .art-postheadericons
 {
    padding: 1px;
+   margin: 0 0 0 10px;
 }
 
 .art-postheadericons a, .art-postheadericons a:link
 {
    font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
-   font-weight: bold;
-   font-style: normal;
    text-decoration: none;
    color: #796A2F;
 }
@@ -1855,7 +1857,7 @@ pre
 .art-postheadericons a:visited, .art-postheadericons a.visited
 {
    font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
-   font-weight: bold;
+   font-weight: normal;
    font-style: normal;
    text-decoration: none;
    color: #796A2F;
@@ -1864,7 +1866,7 @@ pre
 .art-postheadericons a:hover, .art-postheadericons a.hover
 {
    font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
-   font-weight: bold;
+   font-weight: normal;
    font-style: normal;
    text-decoration: underline;
    color: #416268;
@@ -1874,12 +1876,12 @@ pre
 {
    content:url('../media/postpdficon.png');
    margin-right:6px;
+   bottom: 2px;
    position:relative;
    display:inline-block;
    vertical-align:middle;
    font-size:0;
    line-height:0;
-   bottom: auto;
 }
 .opera .art-postpdficon:before
 {
@@ -1908,12 +1910,12 @@ pre
 {
    content:url('../media/postemailicon.png');
    margin-right:6px;
+   bottom: 2px;
    position:relative;
    display:inline-block;
    vertical-align:middle;
    font-size:0;
    line-height:0;
-   bottom: auto;
 }
 .opera .art-postemailicon:before
 {
@@ -1941,8 +1943,8 @@ pre
 .art-postcontent li, .art-post li, .art-textblock li
 {
    font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
-   color: #3D5C61;
-   margin: 5px 0 5px 13px;
+   color: #000000;
+   margin: 3px 0 0 15px;
 }
 
 .art-postcontent ul>li, .art-post ul>li, .art-textblock ul>li, .art-postcontent ol, .art-post ol, .art-textblock ol
@@ -1952,27 +1954,27 @@ pre
 
 .art-postcontent ul>li, .art-post ul>li, .art-textblock ul>li
 {
-   padding-left: 15px;
+   padding-left: 26px;
 }
 
 .art-postcontent ul>li:before,  .art-post ul>li:before,  .art-textblock ul>li:before
 {
-   margin-left: -15px;
+   margin-left: -26px;
 }
 
 .art-postcontent ol, .art-post ol, .art-textblock ol, .art-postcontent ul, .art-post ul, .art-textblock ul
 {
-   margin: 1em 0 1em 13px;
+   margin: 1em 0 1em 15px;
 }
 
 .art-postcontent li ol, .art-post li ol, .art-textblock li ol, .art-postcontent li ul, .art-post li ul, .art-textblock li ul
 {
-   margin: 0.5em 0 0.5em 13px;
+   margin: 0.5em 0 0.5em 15px;
 }
 
 .art-postcontent li, .art-post li, .art-textblock li
 {
-   margin: 5px 0 5px 0;
+   margin: 3px 0 0 0;
 }
 
 .art-postcontent ol>li, .art-post ol>li, .art-textblock ol>li
@@ -1997,6 +1999,7 @@ blockquote
    font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
    font-weight: normal;
    font-style: italic;
+   text-align: left;
    /* makes block not to align behind the image if they are in the same line */
   overflow: auto;
    clear:both;
@@ -2010,6 +2013,7 @@ blockquote a:hover, .art-postcontent blockquote a:hover, .art-blockcontent block
    font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
    font-weight: normal;
    font-style: italic;
+   text-align: left;
 }
 
 /* Override native 'p' margins*/
@@ -2019,6 +2023,7 @@ blockquote p,
 .art-footer blockquote p
 {
    margin: 0;
+   margin: 5px 0;
 }
 
 .art-postfootericons,
@@ -2027,7 +2032,6 @@ blockquote p,
 .art-postfootericons a:visited,
 .art-postfootericons a:hover
 {
-   font-size: 14px;
    font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
    color: #72642C;
 }
@@ -2035,13 +2039,12 @@ blockquote p,
 .art-postfootericons
 {
    padding: 1px;
+   margin: 0 0 0 10px;
 }
 
 .art-postfootericons a, .art-postfootericons a:link
 {
    font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
-   font-weight: bold;
-   font-style: normal;
    text-decoration: none;
    color: #796A2F;
 }
@@ -2049,8 +2052,6 @@ blockquote p,
 .art-postfootericons a:visited, .art-postfootericons a.visited
 {
    font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
-   font-weight: bold;
-   font-style: normal;
    text-decoration: none;
    color: #796A2F;
 }
@@ -2058,9 +2059,7 @@ blockquote p,
 .art-postfootericons a:hover, .art-postfootericons a.hover
 {
    font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
-   font-weight: bold;
-   font-style: normal;
-   text-decoration: underline;
+   text-decoration: none;
    color: #416268;
 }
 
@@ -2070,8 +2069,9 @@ blockquote p,
    margin:0 auto;
    position: relative;
    color: #FFFFFF;
-   font-size: 14px;
+   font-size: 16px;
    font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   line-height: 175%;
    text-align: left;
    padding: 0;
 }
@@ -2085,8 +2085,9 @@ blockquote p,
 .art-footer caption
 {
    color: #FFFFFF;
-   font-size: 14px;
+   font-size: 16px;
    font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   line-height: 175%;
 }
 
 .art-footer p 
@@ -2218,9 +2219,8 @@ blockquote p,
 
 .art-footer li
 {
-   font-size: 17px;
+   font-size: 16px;
    font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
-   line-height: 125%;
    color: #CADBDE;
 }
 

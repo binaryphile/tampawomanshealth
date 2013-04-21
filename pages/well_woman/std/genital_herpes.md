@@ -1,0 +1,7 @@
+---
+title: Genital Herpes
+---
+
+{{title}}
+=========
+
