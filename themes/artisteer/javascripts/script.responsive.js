@@ -353,6 +353,9 @@ jQuery(window).bind("responsive", (function ($) {
     };
 })(jQuery));
 
+/*global jQuery, responsiveDesign*/
+
+
 var responsiveLayoutCell = (function ($) {
     "use strict";
     return function (responsiveDesign) {

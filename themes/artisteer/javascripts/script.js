@@ -430,6 +430,16 @@ jQuery(function ($) {
     $(window).trigger('resize');
 });
 
+jQuery(function($) {
+    "use strict";
+    if (!$('html').hasClass('ie7')) {
+        return;
+    }
+    $('ul.art-vmenu li:not(:first-child),ul.art-vmenu li li li:first-child,ul.art-vmenu>li>ul').each(function () { $(this).append('<div class="art-vmenu-separator"> </div><div class="art-vmenu-separator-bg"> </div>'); });
+});
+
+
+
 var artButtonSetup = (function ($) {
     'use strict';
     return (function (className) {

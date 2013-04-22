@@ -58,6 +58,14 @@ ul.art-hmenu ul{
    clear: right;
 }
 
+ul.art-vmenu, ul.art-vmenu ul, ul.art-vmenu li{
+   zoom: 1;
+}
+
+ul.art-vmenu ul 
+{
+}
+
 input[type="text"]
 {
    margin:0 0 0 -3px;
