@@ -4,6 +4,7 @@
       "style.css",
       style.responsive.css,
       custom.css,
+      images.css,
     ],
    
     "widgets" : {

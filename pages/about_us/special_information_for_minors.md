@@ -1,11 +1,7 @@
 ---
 title: Special Information for Minors
+avatar: hispanic_female_thinking
 ---
-
-![hispanic female thinking]{: .float-right style="width: 200px; height: 133px;"}
-
-{{title}}
-=========
 
 Minors (under the age of 18) must have the consent of their parent or
 legal guardian to obtain an abortion,
@@ -50,6 +46,4 @@ parents.
 
 **In Florida, Free Legal assistance is available through the PATH
 Project.  Call 1-877-352-7284.**
-
-[hispanic female thinking]: {{urls.media}}/hispanic_female_thinking.jpg
 

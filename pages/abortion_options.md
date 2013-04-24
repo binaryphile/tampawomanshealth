@@ -1,11 +1,7 @@
 ---
 title: Abortion Options
+avatar: female_doctor_folding_arms
 ---
-
-![female doctor folding arms]{: .float-right style="width: 200px; height: 150px;"}
-
-{{title}}
-=========
 
 Abortion can be an emotional as well as a medical decision.  Often,
 there are confused feelings surrounding an unplanned pregnancy.  Our
@@ -31,7 +27,6 @@ will go through the procedure with you.  Our staff is committed to
 quality care and providing support during this emotional time.  For a
 private information session, call the Clinic for details.
 
-[female doctor folding arms]: {{urls.media}}/female_doctor_folding_arms.jpg
 [Chemical Termination]: /abortion_options/chemical_termination/
 [RU486 Pill]: /abortion_options/ru486_pill/
 [Surgical Termination 1st Trimester]: /abortion_options/surgical_termination_1st_trimester/

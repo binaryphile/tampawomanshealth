@@ -1,11 +1,7 @@
 ---
 title: Sexually Transmitted Diseases (STDs)
+avatar: female_doctor_listening_to_patient
 ---
-
-![female doctor listening to patient]{: .float-right style="width: 220px; height: 147px;"}
-
-{{title}}
-=========
 
 Below you will find information that will explain the different types of
 **sexually transmitted diseases**.  Included are the symptoms and other
@@ -19,7 +15,6 @@ helpful information.
 - [Human Papillomavirus (HPV)]
 - [Syphilis]
 
-[female doctor listening to patient]: {{urls.media}}/female_doctor_listening_to_patient.jpg
 [HIV AIDS]: /well_woman/std/hiv_aids/
 [Chlamydia]: /well_woman/std/chlamydia/
 [Genital Herpes]: /well_woman/std/genital_herpes/

@@ -6,6 +6,33 @@ description: Tampa Woman's Health Center specializes in health and abortion serv
 author :
   name : Tampa Bay Abortion Clinics
 
+clinics:
+  - name: Tampa Woman's Health Center
+    phone: 813-977-6176
+    address: 2010 E Fletcher Ave
+    location: Tampa, FL
+    hours:
+      - "Mon - Fri: 8am - 5pm"
+      - "Sat: 8am - Last Patient"
+    url: https://maps.google.com/maps?ie=UTF8&cid=16957514029924675795&q=Tampa+Woman%27s+Health+Center+Inc&iwloc=A&gl=US&hl=en
+  - name: St. Petersburg Woman's Health Center
+    phone: 727-381-6620
+    address: 3401 66th St N
+    location: St. Petersburg, FL
+    hours:
+      - "Mon - Thu: 10am - 4pm"
+      - "Fri: 8am - 4pm"
+      - "Sat: Closed"
+    url: https://maps.google.com/maps?ie=UTF8&cid=17353399896762945619&q=St.+Petersburg+Woman%27s+Health+Clinic&iwloc=A&gl=US&hl=en
+  - name: Bread and Roses Woman's Health Center
+    phone: 727-446-2690
+    address: 15600 S Highland Ave
+    location: Clearwater, FL
+    hours: 
+      - "Mon - Fri: 8am - 5pm"
+      - "Sat: 8am - Last Patient"
+    url: https://maps.google.com/maps?ie=UTF8&cid=11400534225554647987&q=Bread+and+Roses+Woman%27s+Health+Center&iwloc=A&gl=US&hl=en
+
 navigation :
   - abortion_options.md:
     - surgical_abortion_procedure.md:
@@ -69,8 +96,7 @@ navigation :
       - missed_birth_control_pills.md
       - birth_control_myths.md
     - the_nuva_ring.md
-    - depo_provera.md:
-      - depo_provera_contraceptive_injection.md
+    - depo_provera.md
     - iud.md
     - spermicides.md
     - condoms.md
@@ -97,7 +123,7 @@ navigation :
     - pap_and_exam.md:
       - faq_pap_smear_and_exam.md
       - understanding_the_pap_smear.md
-  - about.md:
+  - about_us.md:
     - forms.md
     - insurance_coverage.md
     - privacy_rights.md
@@ -106,25 +132,4 @@ navigation :
     - clients_rights_and_responsibilities.md
   - locations.md
   - index.md
-  
-clinics:
-  - name: Tampa Woman's Health Center
-    phone: 813-977-6176
-    location: Tampa, FL
-    hours:
-      - "Mon - Fri: 8am - 5pm"
-      - "Sat: 8am - Last Patient"
-  - name: St. Petersburg Woman's Health Center
-    phone: 727-381-6620
-    location: St. Petersburg, FL
-    hours:
-      - "Mon - Thu: 10am - 4pm"
-      - "Fri: 8am - 4pm"
-      - "Sat: Closed"
-  - name: Bread and Roses Woman's Health Center
-    phone: 727-446-2690
-    location: Clearwater, FL
-    hours: 
-      - "Mon - Fri: 8am - 5pm"
-      - "Sat: 8am - Last Patient"
 

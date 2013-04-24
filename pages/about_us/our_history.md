@@ -2,9 +2,6 @@
 title: Our History
 ---
 
-{{title}}
-=========
-
 G. Michael Nauert, MD founded the Woman's Health Centers in 1975.  He
 developed his passion for serving women as a result of his early
 experience as an intern in the emergency rooms, at one of the area's

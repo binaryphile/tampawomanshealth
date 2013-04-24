@@ -1,11 +1,7 @@
 ---
 title: Insurance Coverage
+avatar: female_nurse_outdoors
 ---
-
-![female nurse outdoors]{: .float-right style="width: 200px; height: 204px;"}
-
-{{title}}
-=========
 
 We accept and verify insurance.
 
@@ -25,6 +21,4 @@ This process may take up to 60 days.
 
 We ask each patient to bring their insurance card with them to their
 appointment so that we can help with filing your claim.
-
-[female nurse outdoors]: {{urls.media}}/female_nurse_outdoors.jpg
 

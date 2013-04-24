@@ -1,11 +1,7 @@
 ---
 title: Emotional Issues Related to Abortion
+avatar: minority_female_nurse
 ---
-
-![minority female nurse]{: .float-right style="width: 200px; height: 300px;"}
-
-{{title}}
-=========
 
 As a result of the anti-choice activists, most people assume that all
 women who have an abortion experience guilt, shame and/or grief.  Many

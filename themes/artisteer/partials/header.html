@@ -3,12 +3,15 @@
 </div>
 <h1 class="art-headline" data-left="0%">{{data.name}}</h1>
 <h2 class="art-slogan" data-left="3.98%">{{data.slogan}}</h2>
-<div class="art-textblock" data-left="0%">
+<div class="art-textblock" data-left="3.98%">
 {{#data.clinics}}
   <p>
+    <a class="hotspot" href="{{url}}" target="_blank">
 {{name}}<br />
+{{address}}<br />
 {{location}}<br />
 {{phone}}
+    </a>
   </p>
 {{/data.clinics}}
 </div>

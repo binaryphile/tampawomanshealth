@@ -1,11 +1,7 @@
 ---
 title: Forms
+avatar: hispanic_female
 ---
-
-![hispanic female]{: .float-right style="width: 113px; height: 170px;"}
-
-{{title}}
-=========
 
 Please print and fill out each form and bring them with you to your
 appointment.
@@ -34,7 +30,6 @@ List of Forms
 - Sonograma Formulario De Consentimiento Fundamentado
 {: .table-cell}
 
-[hispanic female]: {{urls.media}}/hispanic_female.jpg
 [Download English Forms]: /english_forms.zip
 [Descargar Formas Español]: /formas_espanol.zip
 

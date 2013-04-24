@@ -1,11 +1,7 @@
 ---
 title: About Us
+avatar: minority_female_outside
 ---
-
-![minority female outside]{: .float-right style="width: 113px; height: 170px;"}
-
-{{title}}
-=========
 
 We are committed to the quality of care you deserve, and the right to
 have that care available to you.  We support every woman's right to full
@@ -31,6 +27,4 @@ have asked someone to call on your behalf.  However, to assure your
 privacy, we will need to speak only to you about your care, or you can
 sign a Written Release of Information so that we can indeed communicate
 with your loved one, your physician or someone else of your choosing.
-
-[minority female outside]: {{urls.media}}/minority_female_outside.jpg
 

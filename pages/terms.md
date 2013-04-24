@@ -2,9 +2,6 @@
 title: Terms of Use
 ---
 
-{{title}}
-=========
-
 AGREEMENT BETWEEN USER AND Tampa Bay Abortion Clinics
 -----------------------------------------------------
 

@@ -1,23 +1,25 @@
-<p><strong>Tampa Woman's Health Center</strong> is committed to
-providing our patients with professional, non-judgmental, courteous
-attention.  We have offices in Tampa, St.  Petersburg and
-Clearwater.</p>
+<p class="no-responsive"><strong>Tampa Woman's Health
+Center</strong> is committed to providing our patients with
+professional, non-judgmental, courteous attention.  We have offices in
+Tampa, St.  Petersburg and Clearwater.</p>
 
-<p>If you have questions about women's health issues and reproductive
-options, please call us at the offices below to speak confidentially
-with a member of our highly trained staff:</p>
+<p class="no-responsive">If you have questions about women's
+health issues and reproductive options, please call us at the offices
+below to speak confidentially with a member of our highly trained
+staff:</p>
 
 <div class="art-content-layout">
   <div class="art-content-layout-row">
 {{#data.clinics}}
-    <div class="art-layout-cell layout-item-0">
-      <p>
-{{name}}<br />
+    <div class="art-layout-cell">
+        <a class="hotspot" href="{{url}}" target="_blank">
+          <span>{{name}}</span><br />
+{{address}}<br />
 {{phone}}<br />
 {{#hours}}
 {{.}}<br />
 {{/hours}}
-      </p>
+        </a>
     </div>
 {{/data.clinics}}
   </div>

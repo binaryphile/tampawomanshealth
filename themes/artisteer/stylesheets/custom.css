@@ -114,8 +114,9 @@ input[type="textarea"], span > input[type="textarea"] {
 }
 
 .art-textblock {
-  position: relative;
-  bottom: -100px;
+  position: absolute;
+  top: 100px;
+  margin-left: -33px !important;
   font-size: 13px;
   text-align: center;
 }
@@ -123,7 +124,7 @@ input[type="textarea"], span > input[type="textarea"] {
 .art-textblock p {
   width: 12em;
   margin: 0 0 1em 0.5em;
-  float: left;
+  display: inline-block;
 }
 
 dt {
@@ -197,5 +198,67 @@ dt {
 .spread-cell {
   display: table-cell;
   min-width: 20em;
+}
+
+.responsive-phone .art-header>.art-textblock {
+  display: none !important;
+}
+
+.responsive .no-responsive {
+  display: none !important;
+}
+
+.responsive-phone .no-responsive-phone {
+  display: none !important;
+}
+
+.responsive .responsive-phone-and-tablet {
+  display: block !important;
+}
+
+.responsive-phone-and-tablet {
+  display: none;
+}
+
+.avatar {
+  float: right;
+}
+
+.responsive-phone .avatar {
+  display: none !important;
+}
+
+.responsive.responsive-tablet .art-vmenublock, .responsive.responsive-tablet .art-block {
+  width: 100%;
+  text-align: center;
+  margin-left: 0;
+}
+
+a.hotspot, a.hotspot:link, a.hotspot:visited {
+  display: block;
+  background-color: rgba(255,255,255,0.33);
+  border-radius: 5px;
+  padding: 5px;
+  text-decoration: none;
+  color: black;
+}
+
+a.hotspot:hover {
+  background-color: rgba(255,255,255,0.5);
+}
+
+.art-footer a.hotspot, .art-footer a.hotspot:link, .art-footer a.hotspot:visited {
+  margin: 0 10px 10px 0;
+  min-height: 196px;
+  color: white;
+}
+
+.responsive-phone .art-footer a.hotspot, .responsive-phone .art-footer a.hotspot:link, .responsive-phone .art-footer a.hotspot:visited {
+  min-height: 0;
+  margin: 0 0 10px;
+}
+  
+.art-footer a.hotspot>*:first-child, .art-footer a.hotspot:link>*:first-child, .art-footer a.hotspot>*:visited {
+  color: #5EABD4;
 }
 

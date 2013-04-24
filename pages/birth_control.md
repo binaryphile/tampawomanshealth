@@ -1,8 +1,11 @@
 ---
 title: Birth Control
-vertical_menu: true
+no-responsive-submenu: true
 ---
 
-{{title}}
-=========
+<ul>
+{{#data.navigation?to_submenus}}
+{{>menus_list}}
+{{/data.navigation?to_submenus}}
+</ul>
 

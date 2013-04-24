@@ -1,8 +1,8 @@
 ---
 title: Morning After Pill
+no-title: true
+avatar: hispanic_female_nurse
 ---
-
-![hispanic female nurse]{: .float-right style="width: 180px; height: 270px;"}
 
 Postcoital Hormonal Contraception (The Morning After Pill)
 ==========================================================
@@ -68,6 +68,4 @@ be sure to tell him, or her that you are taking or have taken the
 "morning after pill".
 
 For a private information session, call the Clinic for details.
-
-[hispanic female nurse]: {{urls.media}}/hispanic_female_nurse.jpg
 

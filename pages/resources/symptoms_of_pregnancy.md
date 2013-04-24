@@ -1,11 +1,7 @@
 ---
 title: Symptoms of Pregnancy
+avatar: black_businesswoman
 ---
-
-![black business woman]{: .float-right style="width: 170px; height: 113px;"}
-
-{{title}}
-=========
 
 Pregnancy symptoms differ from woman to woman.  Each pregnancy may be
 similar to, or very different from, a woman's last pregnancy.  One of
@@ -79,6 +75,4 @@ can provide the following tests:
 - Blood Tests for the hormones of pregnancy
   - Results within 48 hours (Charge $20.00)
 - Ultrasound to date the pregnancy.  (Charge $100.00)
-
-[black business woman]: {{urls.media}}/black_business_woman.jpg
 

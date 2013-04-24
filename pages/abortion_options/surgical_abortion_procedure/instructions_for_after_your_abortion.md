@@ -1,11 +1,7 @@
 ---
 title: Instructions for After Your Abortion
+avatar: female_nurse_calling
 ---
-
-![female nurse calling]{: .float-right style="width: 220px; height: 171px;"}
-
-{{title}}
-=========
 
 Pregnancy termination as performed at Tampa Woman's Health Center (TWHC)
 is a relatively simple procedure.  However, like other surgical
@@ -173,6 +169,4 @@ this scheduled appointment.  This WARNING is for your own benefit.
 Please take care of yourself by keeping this important post abortion
 checkup appointment.  **This check-up is a free service provided by the
 center.**
-
-[female nurse calling]: {{urls.media}}/female_nurse_calling.jpg
 

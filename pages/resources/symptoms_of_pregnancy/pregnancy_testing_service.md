@@ -1,11 +1,7 @@
 ---
 title: Pregnancy Testing Service
+avatar: hispanic_female_closeup
 ---
-
-![hispanic female closeup]{: .float-right style="width: 112px; height: 170px;"}
-
-{{title}}
-=========
 
 Pregnancy tests check for the presence or absence of a pregnancy
 associated hormone (produced by the placenta during pregnancy) called
@@ -106,6 +102,4 @@ Common Early Signs of Pregnancy
 - Sensitivity to odors
 - Nausea
 - Tired and/or depressed feeling
-
-[hispanic female closeup]: {{urls.media}}/hispanic_female_closeup.jpg
 

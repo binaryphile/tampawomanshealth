@@ -2,9 +2,6 @@
 title: Privacy Policy
 ---
 
-{{title}}
-=========
-
 Tampa Bay Abortion Clinics is committed to protecting your privacy and
 developing technology that gives you the most powerful and safe online
 experience. This Statement of Privacy applies to the Tampa Bay Abortion

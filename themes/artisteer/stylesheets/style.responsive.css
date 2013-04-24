@@ -178,6 +178,7 @@
 {
    margin-top: 1px !important;
    margin-bottom: 1px !important;
+   text-align: center !important;
    height: auto;
    white-space: normal;
 }
@@ -208,6 +209,7 @@
    right: auto !important;
    top: auto !important;
    bottom: auto !important;
+   display: none !important;
    position: relative !important;
    visibility: visible !important;
 }

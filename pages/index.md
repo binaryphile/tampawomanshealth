@@ -1,8 +1,8 @@
 ---
 title: Home
+no-title: true
+avatar: pair_of_doctors
 ---
-
-![pair of doctors]{: .float-right style="width: 200px; height: 200px;"}
 
 Providing Reproductive Care to Women in the Tampa Bay Area
 ==========================================================
@@ -31,7 +31,6 @@ important issues including:
 - [Symptoms of Pregnancy]
 - [Emotional Issues Related to Abortion]
 
-[pair of doctors]: {{urls.media}}/pair_of_doctors.jpg
 [Abortion Choices]: /abortion_options/
 [Morning After Pill]: /abortion_options/morning_after_pill/
 [RU 486]: /abortion_options/ru486_pill/

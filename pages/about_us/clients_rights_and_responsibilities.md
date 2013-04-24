@@ -1,11 +1,7 @@
 ---
 title: Clients Rights and Responsibilities
+avatar: minority_female
 ---
-
-![minority female]{: .float-right style="width: 133px; height: 170px"}
-
-{{title}}
-=========
 
 **Clients Have The Right To:**
 
@@ -43,6 +39,4 @@ title: Clients Rights and Responsibilities
 - Be respectful and courteous.
 
 Meet the financial obligations associated with your care.
-
-[minority female]: {{urls.media}}/minority_female.jpg
 

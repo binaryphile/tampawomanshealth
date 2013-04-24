@@ -1,8 +1,8 @@
 ---
 title: RU486 Pill
+no-title: true
+avatar: ru486
 ---
-
-![ru486]{: .float-right style="width: 220px; height: 254px"}
 
 RU486 Mifeprex
 ==============
@@ -11,7 +11,7 @@ Many women prefer this option to a surgical abortion because they feel
 it is more natural, less invasive, and can be done in the privacy of
 their own homes.  This option is available to women between 5 and 8
 weeks gestation.  This procedure requires several visits to the clinic
-for follow-up.  Ru486 is approximately 93% effective.
+for follow-up.  RU486 is approximately 93% effective.
 
 Our patients are given one dose of Mifrex orally in our clinic during
 their first visit.  24-48 hours later, at home, our patients insert 4
@@ -36,6 +36,4 @@ pregnancy.
 
 If this procedure fails to terminate the pregnancy, there will be an
 additional charge for those patients who need a surgical aspiration.
-
-[ru486]: {{urls.media}}/ru486.jpg
 

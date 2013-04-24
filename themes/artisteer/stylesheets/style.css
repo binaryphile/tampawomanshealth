@@ -1013,19 +1013,6 @@ ul.art-vmenu
    margin-bottom: 0;
 }
 
-ul.art-vmenu ul
-{
-   display: none;
-   margin: 0;
-   padding: 0;
-   position: relative;
-}
-
-ul.art-vmenu ul.active
-{
-   display: block;
-}
-
 ul.art-vmenu>li>a
 {
    -webkit-border-radius:3px;
@@ -1051,7 +1038,7 @@ ul.art-vmenu a
    position:relative;
 }
 
-ul.art-vmenu li{
+ul.art-vmenu ul, ul.art-vmenu li{
    position:relative;
 }
 
@@ -1139,14 +1126,13 @@ ul.art-vmenu li li a
    margin:0 auto;
    position: relative;
 }
-ul.art-vmenu ul li
+ul.art-vmenu ul, ul.art-vmenu ul li
 {
    margin: 0;
    padding: 0;
 }
-ul.art-vmenu li li{
+ul.art-vmenu ul, ul.art-vmenu li li{
    position: relative;
-   margin-top: 0;
 }
 
 ul.art-vmenu ul a
@@ -1181,6 +1167,12 @@ ul.art-vmenu ul a:visited, ul.art-vmenu ul a.active:hover, ul.art-vmenu ul a:hov
    text-decoration: none;
    margin-left: 0;
    margin-right: 0;
+}
+
+ul.art-vmenu li li
+{
+   position: relative;
+   margin-top: 0;
 }
 
 ul.art-vmenu ul ul a

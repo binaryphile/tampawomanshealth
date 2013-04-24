@@ -1,8 +1,8 @@
 ---
 title: Well Woman
+no-title: true
+avatar: hispanic_female
 ---
-
-![hispanic female]{: .float-right style="width: 113px; height: 170px;"}
 
 Family Planning Program - A Well Woman's Clinic
 ===============================================
@@ -41,6 +41,4 @@ Other Services
 
 - Routine work physicals
 - School physicals
-
-[hispanic female]: {{urls.media}}/hispanic_female.jpg
 

@@ -1,8 +1,8 @@
 ---
 title: Experiencing Upset After My Abortion
+no-title: true
+avatar: white_female_head_in_hands
 ---
-
-![white female head in hands]{: .float-right style="width: 100px; height: 150px;"}
 
 What if I Experience Upset After My Abortion?
 =============================================
@@ -22,6 +22,4 @@ What if I Experience Upset After My Abortion?
   return to a neutral state.
 - Seek counseling if you feel especially troubled, or the above
   strategies have not worked for you.
-
-[white female head in hands]: {{urls.media}}/white_female_head_in_hands.jpg
 
