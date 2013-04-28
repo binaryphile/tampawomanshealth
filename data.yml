@@ -1,21 +1,23 @@
 title : "Abortion Clinic Tampa St. Petersburg Clearwater:  Tampa Woman's Health Center"
-name: Tampa Woman's Health Center
+name: Tampa Bay Woman's Health Centers
 slogan: When Someone You Love Needs a Choice
 year: 2013
-description: Tampa Woman's Health Center specializes in health and abortion services such as well-woman visits as well as chemical and surgical pregnancy termination in Tampa, St. Petersburg and Clearwater.
+description: Tampa Bay Woman's Health Centers specialize in health and abortion services such as well-woman visits as well as chemical and surgical pregnancy termination in Tampa, St. Petersburg and Clearwater.
 author :
   name : Tampa Bay Abortion Clinics
 
 clinics:
   - name: Tampa Woman's Health Center
+    anchor: tampa-womans-health-center
     phone: 813-977-6176
     address: 2010 E Fletcher Ave
     location: Tampa, FL
     hours:
       - "Mon - Fri: 8am - 5pm"
       - "Sat: 8am - Last Patient"
-    url: https://maps.google.com/maps?ie=UTF8&cid=16957514029924675795&q=Tampa+Woman%27s+Health+Center+Inc&iwloc=A&gl=US&hl=en
+    map-url: https://maps.google.com/maps?ie=UTF8&cid=16957514029924675795&q=Tampa+Woman%27s+Health+Center+Inc&iwloc=A&gl=US&hl=en
   - name: St. Petersburg Woman's Health Center
+    anchor: st-petersburg-womans-health-center
     phone: 727-381-6620
     address: 3401 66th St N
     location: St. Petersburg, FL
@@ -23,113 +25,114 @@ clinics:
       - "Mon - Thu: 10am - 4pm"
       - "Fri: 8am - 4pm"
       - "Sat: Closed"
-    url: https://maps.google.com/maps?ie=UTF8&cid=17353399896762945619&q=St.+Petersburg+Woman%27s+Health+Clinic&iwloc=A&gl=US&hl=en
+    map-url: https://maps.google.com/maps?ie=UTF8&cid=17353399896762945619&q=St.+Petersburg+Woman%27s+Health+Clinic&iwloc=A&gl=US&hl=en
   - name: Bread and Roses Woman's Health Center
+    anchor: bread-and-roses-womans-health-center
     phone: 727-446-2690
     address: 15600 S Highland Ave
     location: Clearwater, FL
     hours: 
       - "Mon - Fri: 8am - 5pm"
       - "Sat: 8am - Last Patient"
-    url: https://maps.google.com/maps?ie=UTF8&cid=11400534225554647987&q=Bread+and+Roses+Woman%27s+Health+Center&iwloc=A&gl=US&hl=en
+    map-url: https://maps.google.com/maps?ie=UTF8&cid=11400534225554647987&q=Bread+and+Roses+Woman%27s+Health+Center&iwloc=A&gl=US&hl=en
 
 navigation :
-  - abortion_options.md:
-    - surgical_abortion_procedure.md:
-      - abortion_preparation.md
-      - abortion_anesthesia.md
-      - abortion_fees.md
-      - preexisting_medical_condition_considerations.md
-      - instructions_for_after_your_abortion.md
-    - chemical_termination.md
-    - morning_after_pill.md:
-      - how_to_get_the_morning_after_pill.md
-    - ru486_pill.md
-    - surgical_termination_1st_trimester.md
-    - surgical_termination_2nd_trimester.md
-    - vip_services.md
-    - faq_regarding_surgical_abortions.md
-    - faq_regarding_medical_abortions.md
-    - medical_abortion_with_mifepristone_or_mifeprex.md
+  - abortion-options.md:
+    - surgical-abortion-procedure.md:
+      - abortion-preparation.md
+      - abortion-anesthesia.md
+      - abortion-fees.md
+      - preexisting-medical-condition-considerations.md
+      - instructions-for-after-your-abortion.md
+    - chemical-termination.md
+    - morning-after-pill.md:
+      - how-to-get-the-morning-after-pill.md
+    - ru486-pill.md
+    - surgical-termination-1st-trimester.md
+    - surgical-termination-2nd-trimester.md
+    - vip-services.md
+    - faq-regarding-surgical-abortions.md
+    - faq-regarding-medical-abortions.md
+    - medical-abortion-with-mifepristone-or-mifeprex.md
   - resources.md:
-    - hormones_during_pregnancy.md
-    - frequency_of_urination_during_pregnancy.md
-    - emotional_issues_related_to_abortion.md:
-      - experiencing_upset_after_my_abortion.md
-      - myth_that_abortion_causes_depression.md
-    - symptoms_of_pregnancy.md:
-      - pregnancy_testing_service.md
-      - pregnancy_tests.md
-      - morning_sickness.md
-    - breast_tenderness.md
-    - breasts_leaking.md
-    - hyperemesis_gravidarum.md
+    - hormones-during-pregnancy.md
+    - frequency-of-urination-during-pregnancy.md
+    - emotional-issues-related-to-abortion.md:
+      - experiencing-upset-after-my-abortion.md
+      - myth-that-abortion-causes-depression.md
+    - symptoms-of-pregnancy.md:
+      - pregnancy-testing-service.md
+      - pregnancy-tests.md
+      - morning-sickness.md
+    - breast-tenderness.md
+    - breasts-leaking.md
+    - hyperemesis-gravidarum.md
     - ultrasound.md
-    - preventing_hpv.md
-    - what_you_should_know_about_your_period.md:
-      - menstrual_bleeding.md
-      - when_you_should_worry_about_menstrual_bleeding.md
+    - preventing-hpv.md
+    - what-you-should-know-about-your-period.md:
+      - menstrual-bleeding.md
+      - when-you-should-worry-about-menstrual-bleeding.md
     - masturbation.md
-    - dna_testing.md
-    - faq_for_men.md:
-      - male_birth_control_pills.md
+    - dna-testing.md
+    - faq-for-men.md:
+      - male-birth-control-pills.md
       - vasectomy.md
-      - coping_with_a_pregnancy_decision.md
-      - showing_her_you_care.md
-    - abortion_and_politics.md:
-      - the_hyde_amendment.md
-      - liberalization_of_abortion_laws.md
-      - making_abortion_illegal.md
-      - a_timeline_of_reproductive_rights.md
-      - reform_to_improve_pregnancy_related_services.md
-    - about_medicaid.md
-    - rh_sensitization.md
-    - common_sexual_misconceptions.md
-    - molar_pregnancy.md
-    - domestic_violence.md:
-      - protecting_yourself_from_domestic_violence.md
-      - why_do_women_stay_with_men_who_batter.md
-      - domestic_violence_and_getting_help.md
-    - informational_links.md
-  - birth_control.md:
-    - birth_control_choices_and_information.md:
-      - missed_birth_control_pills.md
-      - birth_control_myths.md
-    - the_nuva_ring.md
-    - depo_provera.md
+      - coping-with-a-pregnancy-decision.md
+      - showing-her-you-care.md
+    - abortion-and-politics.md:
+      - the-hyde-amendment.md
+      - liberalization-of-abortion-laws.md
+      - making-abortion-illegal.md
+      - a-timeline-of-reproductive-rights.md
+      - reform-to-improve-pregnancy-related-services.md
+    - about-medicaid.md
+    - rh-sensitization.md
+    - common-sexual-misconceptions.md
+    - molar-pregnancy.md
+    - domestic-violence.md:
+      - protecting-yourself-from-domestic-violence.md
+      - why-do-women-stay-with-men-who-batter.md
+      - domestic-violence-and-getting-help.md
+    - informational-links.md
+  - birth-control.md:
+    - birth-control-choices-and-information.md:
+      - missed-birth-control-pills.md
+      - birth-control-myths.md
+    - the-nuva-ring.md
+    - depo-provera.md
     - iud.md
     - spermicides.md
     - condoms.md
-    - medications_can_interfere_with_oral_contraceptives.md
-    - female_sterilization_tubal_ligation.md
+    - medications-can-interfere-with-oral-contraceptives.md
+    - female-sterilization-tubal-ligation.md
     - paragard.md
     - diaphragm.md
-  - well_woman.md:
+  - well-woman.md:
     - std.md:
-      - hiv_aids.md
+      - hiv-aids.md
       - chlamydia.md
-      - genital_herpes.md
-      - genital_warts_condyloma.md
+      - genital-herpes.md
+      - genital-warts-condyloma.md
       - gonorrhea.md
       - hpv.md
       - syphilis.md
-      - general_information.md
+      - general-information.md
     - uti.md
-    - about_cervical_cancer.md
-    - sexual_problems_in_women.md
+    - about-cervical-cancer.md
+    - sexual-problems-in-women.md
     - pms.md
-    - pelvic_pain.md
+    - pelvic-pain.md
     - pid.md
-    - pap_and_exam.md:
-      - faq_pap_smear_and_exam.md
-      - understanding_the_pap_smear.md
-  - about_us.md:
+    - pap-and-exam.md:
+      - faq-pap-smear-and-exam.md
+      - understanding-the-pap-smear.md
+  - about-us.md:
     - forms.md
-    - insurance_coverage.md
-    - privacy_rights.md
-    - special_information_for_minors.md
-    - our_history.md
-    - clients_rights_and_responsibilities.md
+    - insurance-coverage.md
+    - privacy-rights.md
+    - special-information-for-minors.md
+    - our-history.md
+    - clients-rights-and-responsibilities.md
   - locations.md
   - index.md
 

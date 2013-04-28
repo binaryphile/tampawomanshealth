@@ -7,12 +7,12 @@
 <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Belleza|Handlee|Ubuntu&amp;subset=latin">
 {{{stylesheets.all}}}
 {{{javascripts.all}}}
-<meta name="viewport" content="initial-scale = 1.0, maximum-scale = 1.0, user-scalable = no, width = device-width" />
+<meta name="viewport" content="initial-scale = 1.0{{^page.scalable}}, maximum-scale = 1.0, user-scalable = no{{/page.scalable}}, width = device-width" />
 <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 <!--[if lte IE 7]><link rel="stylesheet" href="style.ie7.css" media="screen" /><![endif]-->
-<link rel="shortcut icon" href="{{urls.media}}/favicon.ico" />
+<link rel="shortcut icon" href="{{urls.theme}}/media/favicon.ico" />
 {{#data.rss}}
-<link rel="alternate" type="application/rss+xml" title="{{ title }}" href="{{ href }}" />
+<link rel="alternate" type="application/rss+xml" title="{{title}}" href="{{href}}" />
 {{/data.rss}}
 {{#page.scripts}}
 <script src="{{urls.javascripts}}/{{.}}"></script>

@@ -243,6 +243,10 @@ a.hotspot, a.hotspot:link, a.hotspot:visited {
   color: black;
 }
 
+.responsive a.hotspot, .responsive a.hotspot:link, .responsive a.hotspot:visited {
+  text-decoration: underline;
+}
+
 a.hotspot:hover {
   background-color: rgba(255,255,255,0.5);
 }
@@ -260,5 +264,17 @@ a.hotspot:hover {
   
 .art-footer a.hotspot>*:first-child, .art-footer a.hotspot:link>*:first-child, .art-footer a.hotspot>*:visited {
   color: #5EABD4;
+}
+
+.responsive .art-postcontent a, .responsive .art-postcontent a:link {
+  text-decoration: underline;
+}
+
+.responsive .art-postcontent a.art-button, .responsive .art-postcontent a.art-button:link {
+  text-decoration: none;
+}
+
+.responsive ul.art-vmenu a {
+  text-decoration: underline;
 }
 

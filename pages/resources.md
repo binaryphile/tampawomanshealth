@@ -1,7 +1,7 @@
 ---
 title: Resources
 no-title: true
-avatar: three_females_on_stairs
+avatar: three-females-on-stairs
 ---
 
 Frequently Asked Questions (FAQ)
@@ -21,17 +21,17 @@ Frequently Asked Questions (FAQ)
 - [Privacy Rights]
 - [Special Information for Minors]
 
-[Surgical Abortion Procedure]: /abortion_options/surgical_abortion_procedure/
-[Abortion Preparation]: /abortion_options/surgical_abortion_procedure/abortion_preparation/
-[Abortion Anesthesia]: /abortion_options/surgical_abortion_procedure/abortion_anesthesia/
-[Rh Sensitization]: /resources/rh_sensitization/
-[Insurance Coverage]: /about_us/insurance_coverage/
-[Abortion Fees]: /abortion_options/surgical_abortion_procedure/abortion_fees/
-[Birth Control Information]: /birth_control/birth_control_choices_and_information/
-[Missed Birth Control Pills]: /birth_control/birth_control_choices_and_information/missed_birth_control_pills/
-[The Nuva Ring]: /birth_control/the_nuva_ring/
-[Depo Provera]: /birth_control/depo_provera/
-[Pre-Existing Medical Condition Considerations]: /abortion_options/surgical_abortion_procedure/preexisting_medical_condition_considerations/
-[Privacy Rights]: /about_us/privacy_rights/
-[Special Information for Minors]: /about_us/special_information_for_minors/
+[Surgical Abortion Procedure]: /abortion-options/surgical-abortion-procedure/
+[Abortion Preparation]: /abortion-options/surgical-abortion-procedure/abortion-preparation/
+[Abortion Anesthesia]: /abortion-options/surgical-abortion-procedure/abortion-anesthesia/
+[Rh Sensitization]: /resources/rh-sensitization/
+[Insurance Coverage]: /about-us/insurance-coverage/
+[Abortion Fees]: /abortion-options/surgical-abortion-procedure/abortion-fees/
+[Birth Control Information]: /birth-control/birth-control-choices-and-information/
+[Missed Birth Control Pills]: /birth-control/birth-control-choices-and-information/missed-birth-control-pills/
+[The Nuva Ring]: /birth-control/the-nuva-ring/
+[Depo Provera]: /birth-control/depo-provera/
+[Pre-Existing Medical Condition Considerations]: /abortion-options/surgical-abortion-procedure/preexisting-medical-condition-considerations/
+[Privacy Rights]: /about-us/privacy-rights/
+[Special Information for Minors]: /about-us/special-information-for-minors/
 

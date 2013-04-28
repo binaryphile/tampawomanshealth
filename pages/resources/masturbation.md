@@ -1,6 +1,6 @@
 ---
 title: Masturbation
-avatar: black_male_doctor
+avatar: black-male-doctor
 ---
 
 Positive (healthy) sexuality is an important factor in one's mental and

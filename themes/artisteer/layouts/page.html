@@ -1,10 +1,10 @@
 ---
 layout : default
 ---
-{{^manual_post}}
+{{^manual-post}}
 <article class="art-post art-article">
   <div class="art-postcontent art-postcontent-0 clearfix">
-{{/manual_post}}
+{{/manual-post}}
 {{#avatar}}
 <img class="avatar" alt="{{avatar}}" src="{{urls.media}}/{{avatar}}.jpg" />
 {{/avatar}}
@@ -12,10 +12,10 @@ layout : default
 <h1>{{title}}</h1>
 {{/no-title}}
 {{{ page.content }}}
-{{^manual_post}}
+{{^manual-post}}
   </div>
 </article>
-{{/manual_post}}
+{{/manual-post}}
 {{^no-responsive-submenu}}
 <div class="responsive-phone-and-tablet">
 {{>vertical_menu}}

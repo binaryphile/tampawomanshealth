@@ -1,0 +1,24 @@
+{{#has_active_page}}
+<li><a href="{{url}}" class="active">{{title}}</a>
+{{#submenu}}
+  <ul class="active">
+{{#items}}
+{{>menu}}
+{{/items}}  
+  </ul>  
+{{/submenu}}
+</li>
+{{/has_active_page}}
+
+{{^has_active_page}}
+<li><a href="{{url}}">{{title}}</a>
+{{#submenu}}
+  <ul>
+{{#items}}
+{{>menu}}
+{{/items}}
+  </ul>  
+{{/submenu}}
+</li>
+{{/has_active_page}}
+

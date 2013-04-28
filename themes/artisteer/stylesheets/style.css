@@ -961,30 +961,12 @@ ul.art-hmenu ul
 
 .art-vmenublock
 {
+   background: #F5F2E5;
    margin:15px;
 }
 div.art-vmenublock img
 {
    margin: 0;
-}
-
-.art-vmenublockheader
-{
-   padding:6px 0;
-   margin:0 auto;
-}
-.art-vmenublockheader .t,
-.art-vmenublockheader .t a,
-.art-vmenublockheader .t a:link,
-.art-vmenublockheader .t a:visited, 
-.art-vmenublockheader .t a:hover
-{
-   color: #000000;
-   font-size: 24px;
-   font-family: Handlee, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
-   font-weight: normal;
-   font-style: normal;
-   margin: 0 10px;
 }
 
 .art-vmenublockcontent
@@ -1015,13 +997,9 @@ ul.art-vmenu
 
 ul.art-vmenu>li>a
 {
-   -webkit-border-radius:3px;
-   -moz-border-radius:3px;
-   border-radius:3px;
-   border:1px solid transparent;
    padding:0 15px;
    margin:0 auto;
-   color: #5E8E97;
+   color: #5C8B93;
    min-height: 30px;
    line-height: 30px;
 }
@@ -1044,30 +1022,73 @@ ul.art-vmenu ul, ul.art-vmenu li{
 
 ul.art-vmenu>li
 {
-   margin-top: 4px;
+   margin-top: 0;
 }
 ul.art-vmenu>li>ul
 {
    padding: 0;
-   margin-top: 8px;
-   margin-bottom: 8px;
+   margin-top: 0;
+   margin-bottom: 0;
 }
 ul.art-vmenu>li:first-child
 {
    margin-top:0;
 }
 
+ul.art-vmenu>li>a:before
+{
+   content:url('../media/vmenuitemicon.png');
+   margin-right:5px;
+   bottom: 2px;
+   position:relative;
+   display:inline-block;
+   vertical-align:middle;
+   font-size:0;
+   line-height:0;
+}
+.opera ul.art-vmenu>li>a:before
+{
+   /* Vertical-align:middle in Opera doesn't need additional offset */
+    bottom: 0;
+}
+
+ul.art-vmenu>li>a.active:before
+{
+   content:url('../media/vmenuactiveitemicon.png');
+   margin-right:5px;
+   bottom: 2px;
+   position:relative;
+   display:inline-block;
+   vertical-align:middle;
+   font-size:0;
+   line-height:0;
+}
+.opera ul.art-vmenu>li>a.active:before
+{
+   /* Vertical-align:middle in Opera doesn't need additional offset */
+    bottom: 0;
+}
+
+ul.art-vmenu>li>a:hover:before,  ul.art-vmenu>li>a.active:hover:before,  ul.art-vmenu>li:hover>a:before,  ul.art-vmenu>li:hover>a.active:before
+{
+   content:url('../media/vmenuhovereditemicon.png');
+   margin-right:5px;
+   bottom: 2px;
+   position:relative;
+   display:inline-block;
+   vertical-align:middle;
+   font-size:0;
+   line-height:0;
+}
+.opera ul.art-vmenu>li>a:hover:before, .opera   ul.art-vmenu>li>a.active:hover:before, .opera   ul.art-vmenu>li:hover>a:before, .opera   ul.art-vmenu>li:hover>a.active:before
+{
+   /* Vertical-align:middle in Opera doesn't need additional offset */
+    bottom: 0;
+}
+
 ul.art-vmenu>li>a:hover, ul.art-vmenu>li>a.active:hover
 {
    background: #DBD0A3;
-   background: linear-gradient(top, #E7DFC1 0, #D0C186 100%) no-repeat;
-   background: -webkit-linear-gradient(top, #E7DFC1 0, #D0C186 100%) no-repeat;
-   background: -moz-linear-gradient(top, #E7DFC1 0, #D0C186 100%) no-repeat;
-   background: -o-linear-gradient(top, #E7DFC1 0, #D0C186 100%) no-repeat;
-   background: -ms-linear-gradient(top, #E7DFC1 0, #D0C186 100%) no-repeat;
-   background: linear-gradient(top, #E7DFC1 0, #D0C186 100%) no-repeat;
-   -svg-background: linear-gradient(top, #E7DFC1 0, #D0C186 100%) no-repeat;
-   border:1px solid #C4B268;
    padding:0 15px;
    margin:0 auto;
 }
@@ -1088,26 +1109,14 @@ ul.art-vmenu>li>a.active:hover>span.border-top, ul.art-vmenu>li>a.active:hover>s
 
 ul.art-vmenu>li>a.active
 {
-   background: #56A7D2;
-   background: linear-gradient(top, #72B5DA 0, #3A98CB 100%) no-repeat;
-   background: -webkit-linear-gradient(top, #72B5DA 0, #3A98CB 100%) no-repeat;
-   background: -moz-linear-gradient(top, #72B5DA 0, #3A98CB 100%) no-repeat;
-   background: -o-linear-gradient(top, #72B5DA 0, #3A98CB 100%) no-repeat;
-   background: -ms-linear-gradient(top, #72B5DA 0, #3A98CB 100%) no-repeat;
-   background: linear-gradient(top, #72B5DA 0, #3A98CB 100%) no-repeat;
-   -svg-background: linear-gradient(top, #72B5DA 0, #3A98CB 100%) no-repeat;
-   border:1px solid #328DBD;
    padding:0 15px;
    margin:0 auto;
    text-decoration: none;
-   color: #2F474B;
+   color: #5C8B93;
 }
 
 ul.art-vmenu>li>ul:before
 {
-   -webkit-border-radius:2px;
-   -moz-border-radius:2px;
-   border-radius:2px;
    margin:0 auto;
    display: block;
    position: absolute;
@@ -1120,9 +1129,6 @@ ul.art-vmenu>li>ul:before
 
 ul.art-vmenu li li a
 {
-   -webkit-border-radius:2px;
-   -moz-border-radius:2px;
-   border-radius:2px;
    margin:0 auto;
    position: relative;
 }
@@ -1146,7 +1152,7 @@ ul.art-vmenu ul a
    padding-right: 27px;
    z-index: 0;
    line-height: 24px;
-   color: #B09B45;
+   color: #AD9743;
    font-size: 16px;
    font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
    font-weight: normal;
@@ -1159,7 +1165,7 @@ ul.art-vmenu ul a
 ul.art-vmenu ul a:visited, ul.art-vmenu ul a.active:hover, ul.art-vmenu ul a:hover, ul.art-vmenu ul a.active
 {
    line-height: 24px;
-   color: #B09B45;
+   color: #AD9743;
    font-size: 16px;
    font-family: Ubuntu, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
    font-weight: normal;
@@ -1192,12 +1198,26 @@ ul.art-vmenu ul ul ul ul ul a
    padding-left: 135px;
 }
 
+ul.art-vmenu li li a:before
+{
+   content:url('../media/vmenusubitemicon.png');
+   margin-right:10px;
+   bottom: 2px;
+   position:relative;
+   display:inline-block;
+   vertical-align:middle;
+   font-size:0;
+   line-height:0;
+}
+.opera ul.art-vmenu li li a:before
+{
+   /* Vertical-align:middle in Opera doesn't need additional offset */
+    bottom: 0;
+}
+
 ul.art-vmenu ul>li>a:hover, ul.art-vmenu ul>li>a.active:hover
 {
    background: #DBD0A3;
-   -webkit-border-radius:2px;
-   -moz-border-radius:2px;
-   border-radius:2px;
    margin:0 auto;
 }
 ul.art-vmenu ul li a:hover, ul.art-vmenu ul li a.active:hover
@@ -1219,17 +1239,48 @@ ul.art-vmenu ul a.active:after
    background-position: bottom ;
 }
 
+ul.art-vmenu li li a:hover:before
+{
+   content:url('../media/vmenuhoveredsubitemicon.png');
+   margin-right:10px;
+   bottom: 2px;
+   position:relative;
+   display:inline-block;
+   vertical-align:middle;
+   font-size:0;
+   line-height:0;
+}
+.opera ul.art-vmenu li li a:hover:before
+{
+   /* Vertical-align:middle in Opera doesn't need additional offset */
+    bottom: 0;
+}
+
 ul.art-vmenu ul>li>a.active
 {
-   -webkit-border-radius:2px;
-   -moz-border-radius:2px;
-   border-radius:2px;
    margin:0 auto;
 }
 ul.art-vmenu ul a.active, ul.art-vmenu ul a:hover, ul.art-vmenu ul a.active:hover
 {
    text-decoration: none;
-   color: #5E8E97;
+   color: #5C8B93;
+}
+
+ul.art-vmenu li li a.active:before
+{
+   content:url('../media/vmenuactivesubitemicon.png');
+   margin-right:10px;
+   bottom: 2px;
+   position:relative;
+   display:inline-block;
+   vertical-align:middle;
+   font-size:0;
+   line-height:0;
+}
+.opera ul.art-vmenu li li a.active:before
+{
+   /* Vertical-align:middle in Opera doesn't need additional offset */
+    bottom: 0;
 }
 
 .art-block

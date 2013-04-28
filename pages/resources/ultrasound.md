@@ -1,14 +1,13 @@
 ---
 title: Ultrasound
-avatar: black_female
+avatar: black-female
 ---
 
 An Ultrasound is created when sound waves are reflected off specific
 areas of the body...there is no radiation involved in the ultra sound
 exams.
 
-Here at Tampa Woman’s Health Center we use two different types of
-Ultrasounds.
+Here at {{data.name}}, we use two different types of Ultrasounds.
 
 One is the Abdominal Ultrasound. A transducer, which looks like a
 rounded curved scanner is glided over the abdomen to produce images that
