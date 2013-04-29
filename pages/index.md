@@ -7,12 +7,12 @@ avatar: pair-of-doctors
 Providing Reproductive Care to Women in the Tampa Bay Area
 ==========================================================
 
-If you are looking for kind, compassionate and safe care, in Tampa, let
-{{data.name}} care for you.  We want your experience with us to be
-gentle, supportive and medically sound.  You will find our facilities
-clean and modern.  Our highly trained and well experienced staff are
-always ready to answer questions and assist you throughout your time
-with us.
+If you are looking for kind, compassionate and safe care in the Tampa
+Bay area, let {{data.name}} care for you.  We want your experience with
+us to be gentle, supportive and medically sound.  You will find our
+facilities clean and modern.  Our highly trained and well experienced
+staff are always ready to answer questions and assist you throughout
+your time with us.
 
 Throughout Tampa Bay, **{{data.name}}** are your best resource for
 information on women's health, reproductive choices and abortion.  We

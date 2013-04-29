@@ -459,6 +459,24 @@ font-variant: normal;
   margin: 0;
   color: #FFFFFF !important;
 }
+.art-positioncontrol-551183804
+{
+    display: block;
+    left: 36.94%;
+    margin-left: -53px;
+    position: absolute;
+    top: 315px;
+    width: 145px;
+    height: 20px;
+    z-index: 104;
+
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+
+    }
 
 
 

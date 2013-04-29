@@ -23,97 +23,7 @@
   clear: both;
 }
 
-.tel_tabular fieldset {
-  margin: 0 0 1em 0;
-  padding: .25em .25em;
-}
-
-.tel_tabular legend {
-  font-weight: bold;
-}
-
-ol.tel_tabular {
-  margin: 0;
-  display: table;
-}
-
-.tel_tabular ol {
-  margin: 0;
-  display: table;
-}
-
-.tel_tabular li {
-  height: 2em;
-  display: table-row;
-}
-
-.tel_tabular li > label {
-  display: table-cell;
-}
-
-.tel_tabular label {
-  text-align: right;
-  padding-left: 1em;
-}
-
-.tel_tabular label:after {
-  content: ":";
-}
-
-.tel_tabular input {
-  width: 25em;
-  margin-left: 0.25em;
-}
-
-.tel_tabular label:first-child {
-  min-width: 8em;
-}
-
-.tel_tabular label {
-  min-width: 4em;
-}
-
-.tel_tabular span > label {
-  min-width: auto;
-}
-
-.tel_tabular span {
-  display: table-cell;
-}
-
-.tel_tabular > label, .tel_tabular span > label {
-  display: inline-block;
-}
-
-.tel_tabular > label:after {
-  content: ""
-}
-
-.tel_tabular > input, .tel_tabular span > input {
-  width: auto;
-}
-
-input.tel_state, span > input.tel_state { /* second selector is to override specifity of another selector */
-  width: 2em;
-}
-
-input.tel_zip, span > input.tel_zip { /* second selector is to override specifity of another selector */
-  width: 5em;
-}
-
-input.tel_ext, span > input.tel_ext { /* second selector is to override specifity of another selector */
-  width: 5em;
-}
-
-input[type="number"], span > input[type="number"] {
-  width: 5em;
-}
-
-input[type="textarea"], span > input[type="textarea"] {
-  height: 2em;
-}
-
-.art-textblock {
+.locations {
   position: absolute;
   top: 100px;
   margin-left: -33px !important;
@@ -121,10 +31,16 @@ input[type="textarea"], span > input[type="textarea"] {
   text-align: center;
 }
 
-.art-textblock p {
+.locations p {
   width: 12em;
   margin: 0 0 1em 0.5em;
   display: inline-block;
+}
+
+#google_translate_element {
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 10px;
 }
 
 dt {
@@ -200,23 +116,23 @@ dt {
   min-width: 20em;
 }
 
-.responsive-phone .art-header>.art-textblock {
+.responsive-phone .art-header>.locations {
   display: none !important;
 }
 
-.responsive .no-responsive {
+.responsive .desktop-only {
   display: none !important;
 }
 
-.responsive-phone .no-responsive-phone {
+.responsive-phone .tablet-and-desktop {
   display: none !important;
 }
 
-.responsive .responsive-phone-and-tablet {
+.responsive .phone-and-tablet {
   display: block !important;
 }
 
-.responsive-phone-and-tablet {
+.phone-and-tablet {
   display: none;
 }
 

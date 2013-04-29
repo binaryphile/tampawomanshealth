@@ -1,15 +1,4 @@
 GIT
-  remote: git://github.com/binaryphile/ruhoh.rb.git
-  revision: 2dda1004eca2f2dda89124a9c9a2285566db659d
-  specs:
-    ruhoh (2.0.alpha.3)
-      directory_watcher (~> 1.4.1)
-      mustache (~> 0.99)
-      nokogiri (~> 1.5)
-      rack (~> 1.4)
-      redcarpet (~> 2.1)
-
-GIT
   remote: git://github.com/guard/guard-livereload.git
   revision: 931c14064b05188dff00c15488f18c82ad81e9f2
   specs:
@@ -43,6 +32,16 @@ GIT
     rb-inotify (0.9.0)
       ffi (>= 0.5.0)
 
+PATH
+  remote: ../../../remote/ruhoh.rb
+  specs:
+    ruhoh (2.0.alpha.3)
+      directory_watcher (~> 1.4.1)
+      mustache (~> 0.99)
+      nokogiri (~> 1.5)
+      rack (~> 1.4)
+      redcarpet (~> 2.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -70,7 +69,6 @@ GEM
     method_source (0.8.1)
     multi_json (1.7.2)
     mustache (0.99.4)
-    nokogiri (1.5.9)
     nokogiri (1.5.9-x86-mingw32)
     pry (0.9.12)
       coderay (~> 1.0.5)
