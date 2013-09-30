@@ -33,7 +33,7 @@ GIT
       ffi (>= 0.5.0)
 
 PATH
-  remote: ../../../remote/ruhoh.rb
+  remote: ../../ruhoh.rb
   specs:
     ruhoh (2.0.alpha.3)
       directory_watcher (~> 1.4)
@@ -46,13 +46,6 @@ GEM
   remote: https://rubygems.org/
   specs:
     coderay (1.0.9)
-    columnize (0.3.6)
-    debugger (1.5.0)
-      columnize (>= 0.3.1)
-      debugger-linecache (~> 1.2.0)
-      debugger-ruby_core_source (~> 1.2.0)
-    debugger-linecache (1.2.0)
-    debugger-ruby_core_source (1.2.0)
     directory_watcher (1.5.1)
     em-websocket (0.5.0)
       eventmachine (>= 0.12.9)
@@ -67,9 +60,13 @@ GEM
     listen (0.7.3)
     lumberjack (1.0.3)
     method_source (0.8.1)
+    mini_portile (0.5.1)
     multi_json (1.7.2)
     mustache (0.99.4)
-    nokogiri (1.5.9-x86-mingw32)
+    nokogiri (1.6.0)
+      mini_portile (~> 0.5.0)
+    nokogiri (1.6.0-x86-mingw32)
+      mini_portile (~> 0.5.0)
     pry (0.9.12)
       coderay (~> 1.0.5)
       method_source (~> 0.8)
@@ -91,7 +88,6 @@ PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
-  debugger
   guard!
   guard-livereload!
   kramdown (~> 0.14)
